@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_xscale = 2;
-image_yscale = 2;
+            <string>image_speed = 0.2;
 </string>
           </argument>
         </arguments>
@@ -37,15 +36,15 @@ image_yscale = 2;
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
   <PhysicsObjectDensity>0.100000001490116</PhysicsObjectDensity>
-  <PhysicsObjectRestitution>1.03999996185303</PhysicsObjectRestitution>
+  <PhysicsObjectRestitution>0.850000023841858</PhysicsObjectRestitution>
   <PhysicsObjectGroup>2</PhysicsObjectGroup>
   <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
   <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
-  <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
+  <PhysicsObjectFriction>0.800000011920929</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>4,4</point>
-    <point>4,4</point>
+    <point>32,32</point>
+    <point>12,4</point>
   </PhysicsShapePoints>
 </object>
