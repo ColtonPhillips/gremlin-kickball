@@ -53,6 +53,9 @@ magicy = 300;
 if (phy_linear_velocity_y &gt; magicy) phy_linear_velocity_y =magicy;
 if (phy_linear_velocity_y &lt; -magicy) phy_linear_velocity_y =-magicy;
 
+physics_apply_torque( -100 * gamepad_button_value(0,gp_shoulderlb))
+physics_apply_torque( 100 * gamepad_button_value(0,gp_shoulderrb))
+
 physics_apply_impulse(phy_com_x,phy_com_y,0,1);    
 
 //tried to do fart
@@ -72,7 +75,7 @@ physics_apply_impulse(phy_com_x,phy_com_y,0,1);
   <PhysicsObjectGroup>2</PhysicsObjectGroup>
   <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
   <PhysicsObjectAngularDamping>0.5</PhysicsObjectAngularDamping>
-  <PhysicsObjectFriction>0.600000023841858</PhysicsObjectFriction>
+  <PhysicsObjectFriction>0.800000011920929</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
