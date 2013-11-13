@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\sound0</sound>
+    <sound>sound\sound1</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
@@ -24,6 +25,8 @@
     <background>background\background4</background>
     <background>background\background5</background>
     <background>background\background6</background>
+    <background>background\background7</background>
+    <background>background\background8</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -40,8 +43,12 @@
     <object>objects\object4</object>
     <object>objects\object6</object>
     <object>objects\talker</object>
+    <object>objects\object8</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room8</room>
+    <room>rooms\room7</room>
+    <room>rooms\room6</room>
     <room>rooms\room5</room>
     <room>rooms\room4</room>
     <room>rooms\room3</room>
