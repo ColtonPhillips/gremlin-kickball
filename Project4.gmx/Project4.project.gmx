@@ -21,8 +21,16 @@
     <background>background\background1</background>
     <background>background\background2</background>
     <background>background\background3</background>
+    <background>background\background4</background>
+    <background>background\background5</background>
+    <background>background\background6</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\fap.gml</script>
+    <script>scripts\spooge.gml</script>
+    <script>scripts\talk.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\object0</object>
     <object>objects\object1</object>
@@ -31,8 +39,10 @@
     <object>objects\object3</object>
     <object>objects\object4</object>
     <object>objects\object6</object>
+    <object>objects\talker</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room5</room>
     <room>rooms\room4</room>
     <room>rooms\room3</room>
     <room>rooms\room2</room>
