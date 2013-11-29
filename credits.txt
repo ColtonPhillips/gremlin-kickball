@@ -10,6 +10,7 @@ Jasmine Kivari
 Ryan Petty
 Chris Colwell
 Will Lewis
+Louis Harris
 UVic GameDev
 Nik L A Aleliunas
 Darin Johnson
