@@ -9,6 +9,7 @@ Robert Day
 Jasmine Kivari
 Ryan Petty
 Chris Colwell
+Will Lewis
 UVic GameDev
 Nik L A Aleliunas
 Darin Johnson
