@@ -8,6 +8,7 @@ Brandon Duncan
 Robert Day
 Jasmine Kivari
 Ryan Petty
+Chris Colwell
 UVic GameDev
 Nik L A Aleliunas
 Darin Johnson

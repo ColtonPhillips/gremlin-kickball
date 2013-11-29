@@ -16,6 +16,7 @@
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\sprite7</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -44,17 +45,18 @@
     <object>objects\object6</object>
     <object>objects\talker</object>
     <object>objects\object8</object>
+    <object>objects\object9</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room8</room>
     <room>rooms\room7</room>
-    <room>rooms\room6</room>
+    <room>rooms\rm_cat</room>
     <room>rooms\room5</room>
+    <room>rooms\room8</room>
     <room>rooms\room4</room>
     <room>rooms\room3</room>
     <room>rooms\room2</room>
     <room>rooms\room1</room>
-    <room>rooms\rm_cat</room>
+    <room>rooms\room6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
