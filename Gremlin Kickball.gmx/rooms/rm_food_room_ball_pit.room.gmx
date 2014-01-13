@@ -1857,6 +1857,7 @@
     <instance objName="obj_reactive_apple" x="1097" y="562" name="inst_74CB5954" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pig_cube" x="1061" y="158" name="inst_33A1D2CE" locked="0" code="" scaleX="0.205825239419937" scaleY="0.516634047031403" colour="4294967295" rotation="0"/>
     <instance objName="obj_beteljuce" x="203" y="96" name="inst_B35B5567" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_cell" x="580" y="232" name="inst_2DC5ECD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

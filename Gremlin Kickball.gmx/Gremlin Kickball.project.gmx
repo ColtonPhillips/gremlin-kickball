@@ -9,6 +9,10 @@
     <sound>sound\snd_windy_pass</sound>
   </sounds>
   <sprites name="sprites">
+    <sprites name="ads">
+      <sprite>sprites\spr_title_colton</sprite>
+      <sprite>sprites\spr_title_gibson</sprite>
+    </sprites>
     <sprites name="food_room_ball_pit">
       <sprite>sprites\spr_banana</sprite>
       <sprite>sprites\spr_cucumber</sprite>
@@ -30,6 +34,7 @@
       <sprite>sprites\spr_debug_triangle_wall</sprite>
       <sprite>sprites\spr_debug_ball</sprite>
       <sprite>sprites\spr_debug_gremlin_small</sprite>
+      <sprite>sprites\spr_debug_su</sprite>
     </sprites>
     <sprites name="__pile__">
       <sprite>sprites\spr_angry_bud</sprite>
@@ -171,7 +176,6 @@
       <sprite>sprites\spr_zap</sprite>
       <sprite>sprites\spr_wasp_sweet</sprite>
       <sprite>sprites\spr_runner</sprite>
-      <sprite>sprites\spr_title_gibson</sprite>
       <sprite>sprites\spr_sun</sprite>
       <sprite>sprites\spr_limetex</sprite>
       <sprite>sprites\spr_grem_up</sprite>
@@ -318,7 +322,6 @@
     <sprite>sprites\spr_surface</sprite>
     <sprite>sprites\spr_tag</sprite>
     <sprite>sprites\spr_thrasher</sprite>
-    <sprite>sprites\spr_title_colton</sprite>
     <sprite>sprites\spr_transform</sprite>
     <sprite>sprites\spr_vortex</sprite>
     <sprite>sprites\spr_waldo</sprite>
@@ -329,11 +332,13 @@
     <sprite>sprites\spr_wiggle_background</sprite>
     <sprite>sprites\spr_wormipedo</sprite>
     <sprite>sprites\spr_bea</sprite>
+    <sprite>sprites\spr_debug_cell</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="brecht_platform">
       <background>background\bg_brecht_platform</background>
       <background>background\bg_stone_wall</background>
+      <background>background\bg_brecht_blur_platform</background>
     </backgrounds>
     <background>background\bg_template</background>
     <backgrounds name="food_room_ball_pit">
@@ -371,18 +376,25 @@
       <object>objects\obj_debug_ball</object>
       <object>objects\obj_debug_square_wall</object>
       <object>objects\obj_debug_gremlin</object>
-      <object>objects\obj_debug_song_looper</object>
       <object>objects\obj_debug_room_restarter</object>
       <object>objects\obj_debug_sensor_restarter</object>
+      <object>objects\obj_debug_cell</object>
+      <object>objects\obj_debug_any_key_next_room</object>
+      <object>objects\obj_debug_title_song_looper</object>
+      <object>objects\obj_debug_hold_r_restart_game</object>
     </objects>
     <objects name="player">
       <object>objects\obj_beteljuce</object>
     </objects>
+    <object>objects\obj_ad_reification</object>
   </objects>
   <rooms name="rooms">
+    <rooms name="debug_first_room">
+      <room>rooms\rm_ad_room</room>
+      <room>rooms\rm_title_screen</room>
+      <room>rooms\rm_brecht_platform</room>
+    </rooms>
     <room>rooms\rm_food_room_ball_pit</room>
-    <room>rooms\rm_brecht_platform</room>
-    <room>rooms\rm_title_screen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
