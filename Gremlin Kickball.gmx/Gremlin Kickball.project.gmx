@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_uprising</sound>
+    <sound>sound\snd_windy_pass</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="food_room_ball_pit">
@@ -19,6 +20,10 @@
       <sprite>sprites\spr_apple</sprite>
       <sprite>sprites\spr_reactive_apple</sprite>
       <sprite>sprites\spr_pill</sprite>
+    </sprites>
+    <sprites name="player">
+      <sprite>sprites\spr_beteljuce_first_time</sprite>
+      <sprite>sprites\spr_rygel_first_time</sprite>
     </sprites>
     <sprites name="debug">
       <sprite>sprites\spr_debug_square_wall</sprite>
@@ -324,30 +329,30 @@
     <sprite>sprites\spr_wiggle_background</sprite>
     <sprite>sprites\spr_wormipedo</sprite>
     <sprite>sprites\spr_bea</sprite>
-    <sprites name="player">
-      <sprite>sprites\spr_beteljuce_first_time</sprite>
-      <sprite>sprites\spr_rygel_first_time</sprite>
-    </sprites>
   </sprites>
   <backgrounds name="background">
+    <backgrounds name="brecht_platform">
+      <background>background\bg_brecht_platform</background>
+      <background>background\bg_stone_wall</background>
+    </backgrounds>
     <background>background\bg_template</background>
     <backgrounds name="food_room_ball_pit">
       <background>background\bg_food_room_ball_pit</background>
       <background>background\bg_food_room_crawler</background>
     </backgrounds>
-    <background>background\bg_title_screen</background>
-    <background>background\bg_chad_name</background>
-    <background>background\bg__debug_frame</background>
-    <background>background\bg_burn_room</background>
-    <background>background\background7</background>
-    <background>background\background8</background>
-    <background>background\background9</background>
+    <backgrounds name="title_screen">
+      <background>background\bg__debug_frame</background>
+      <background>background\bg_chad_name</background>
+      <background>background\bg_title_screen</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="debug">
       <script>scripts\scr_debug_move_ball.gml</script>
       <script>scripts\scr_debug_gremlin.gml</script>
+      <script>scripts\scr_debug_move_beteljuce.gml</script>
+      <script>scripts\scr_debug_init_beteljuce.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -366,15 +371,18 @@
       <object>objects\obj_debug_ball</object>
       <object>objects\obj_debug_square_wall</object>
       <object>objects\obj_debug_gremlin</object>
+      <object>objects\obj_debug_song_looper</object>
+      <object>objects\obj_debug_room_restarter</object>
+      <object>objects\obj_debug_sensor_restarter</object>
     </objects>
-    <object>objects\object13</object>
+    <objects name="player">
+      <object>objects\obj_beteljuce</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room4</room>
-    <room>rooms\room3</room>
-    <room>rooms\rm_mar_burn_room</room>
-    <room>rooms\rm_title_screen</room>
     <room>rooms\rm_food_room_ball_pit</room>
+    <room>rooms\rm_brecht_platform</room>
+    <room>rooms\rm_title_screen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
