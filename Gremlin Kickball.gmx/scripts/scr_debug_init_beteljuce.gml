@@ -1,2 +1,2 @@
-grep = 100;
-jumped_previously = 0;
+scr_init_grep_system();
+scr_init_grip_system();

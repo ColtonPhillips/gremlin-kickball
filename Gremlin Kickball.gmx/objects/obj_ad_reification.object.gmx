@@ -25,13 +25,83 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ad = spr_banana;
+            <string>audio_stop_music();
+
+randomize();
+randomize();
+randomize();
+randomize();
+randomize();
+randomize();
+randomize();
+randomize();
+randomize();
+randomize();
+
+ad = spr_banana;
 
 ad_array[0] = spr_title_gibson;
 ad_array[1] = spr_title_colton;
 ad_array[2] = spr_debug_cell;
 ad_array[3] = spr_debug_gremlin_small;
-
+ad_array[4] = spr_pig_cube;
+ad_array[5] = spr_evolution;
+ad_array[6] = spr_title_lee;
+ad_array[7] = spr_dpad;
+ad_array[8] = spr_apple_scan;
+ad_array[9] = spr_arrow_puffer;
+ad_array[10] = spr_art_candle;
+ad_array[11] = spr_balls_sticks;
+ad_array[12] = spr_bean;
+ad_array[13] = spr_body;
+ad_array[14] = spr_boingo;
+ad_array[15] = spr_book_float;
+ad_array[16] = spr_bright_cell;
+ad_array[17] = spr_broken_juggler;
+ad_array[18] = spr_burning_man;
+ad_array[19] = spr_cate;
+ad_array[20] = spr_core;
+ad_array[21] = spr_cosmo;
+ad_array[22] = spr_crumble;
+ad_array[23] = spr_dimension;
+ad_array[24] = spr_feeler;
+ad_array[25] = spr_floater;
+ad_array[26] = spr_fuzz;
+ad_array[27] = spr_ghost;  
+ad_array[28] = spr_gimpy_blood; 
+ad_array[29] = spr_glitch_gif;
+ad_array[30] = spr_gobbler;
+ad_array[31] = spr_hover_kart;
+ad_array[32] = spr_humbler;
+ad_array[33] = spr_invader;
+ad_array[34] = spr_jet_set;
+ad_array[35] = spr_laputa;
+ad_array[36] = spr_limetex;
+ad_array[37] = spr_joint;
+ad_array[38] = spr_marshi;
+ad_array[39] = spr_pieman;
+ad_array[40] = spr_portal;
+ad_array[41] = spr_reaction;
+ad_array[42] = spr_robot;
+ad_array[43] = spr_rotator;
+ad_array[44] = spr_rust;
+ad_array[45] = spr_scanbox;
+ad_array[46] = spr_scriff;
+ad_array[47] = spr_shatter;
+ad_array[48] = spr_shiny_small;
+ad_array[49] = spr_ship;
+ad_array[50] = spr_simple_machine;
+ad_array[51] = spr_static;
+ad_array[52] = spr_transform;
+ad_array[53] = spr_zap;
+ad_array[54] = spr_goro;
+ad_array[55] = spr_paul_ad;
+ad_array[56] = spr_nik_ad_1;
+ad_array[57] = spr_nik_ad_2;
+ad_array[58] = spr_nik_ad_3;
+ad_array[59] = spr_nik_ad_4;
+ad_array[60] = spr_graham_ad;
+ad_array[61] = spr_chad_ad;
 random_index = random_range(0,array_length_1d(ad_array));
 ad = ad_array[random_index];
 

@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="4" ename="obj_beteljuce">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,33 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>has_held = 0;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (keyboard_check(ord("R")) { has_held = has_held + 1; }
-else { has_held = 0; }
-
-if (has_held &gt; 50) { game_restart(); }
+            <string>room_goto_next();
 </string>
           </argument>
         </arguments>

@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_debug_init_beteljuce();
+            <string>scr_init_grep_system();
+scr_init_grip_system();
 </string>
           </argument>
         </arguments>
@@ -48,11 +49,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//with(self) {
-
-scr_debug_move_beteljuce();
-
-//}
+            <string>scr_mover_gamepad_p1_gremlin();
+scr_mover_asdw_gremlin();
+scr_jumper_gamepad_p1_gremlin();
+scr_sucker_down_gremlin();
+scr_rotator_gamepad_p1_gremlin();
+scr_limit_velocity_gremlin();
+scr_step_grip_and_grep();
 </string>
           </argument>
         </arguments>
@@ -63,7 +66,7 @@ scr_debug_move_beteljuce();
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
   <PhysicsObjectDensity>2</PhysicsObjectDensity>
-  <PhysicsObjectRestitution>0.150000005960464</PhysicsObjectRestitution>
+  <PhysicsObjectRestitution>0.200000002980232</PhysicsObjectRestitution>
   <PhysicsObjectGroup>1</PhysicsObjectGroup>
   <PhysicsObjectLinearDamping>0.150000005960464</PhysicsObjectLinearDamping>
   <PhysicsObjectAngularDamping>0.150000005960464</PhysicsObjectAngularDamping>
