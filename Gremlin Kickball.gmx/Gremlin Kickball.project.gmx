@@ -9,6 +9,7 @@
       <sound>sound\snd_ludum</sound>
       <sound>sound\snd_uprising</sound>
       <sound>sound\snd_tinkerbox</sound>
+      <sound>sound\snd_colton_stole_this</sound>
       <sound>sound\snd_windy_pass</sound>
     </sounds>
   </sounds>
@@ -45,6 +46,7 @@
     </sprites>
     <sprites name="debug">
       <sprite>sprites\spr_debug_square_wall</sprite>
+      <sprite>sprites\spr_debug_circle_wall</sprite>
       <sprite>sprites\spr_debug_triangle_wall</sprite>
       <sprite>sprites\spr_debug_ball</sprite>
       <sprite>sprites\spr_debug_gremlin_small</sprite>
@@ -390,6 +392,8 @@
       <background>background\bg_landing</background>
       <background>background\bg_purple_pit</background>
       <background>background\bg_tricky_fall</background>
+      <background>background\bg_crack1</background>
+      <background>background\bg_crack2</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
@@ -485,6 +489,7 @@
       </objects>
       <objects name="wall">
         <object>objects\obj_debug_square_wall</object>
+        <object>objects\obj_debug_circle_wall</object>
       </objects>
     </objects>
     <objects name="player">
@@ -512,6 +517,7 @@
       <room>rooms\rm_fall_b</room>
       <room>rooms\rm_fall_c</room>
       <room>rooms\rm_landing</room>
+      <room>rooms\rm_crack</room>
       <room>rooms\rm_purple_pit</room>
       <room>rooms\rm_tricky_fall</room>
       <room>rooms\rm_food_room_ball_pit</room>

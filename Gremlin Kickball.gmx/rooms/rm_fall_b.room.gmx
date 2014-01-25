@@ -51,7 +51,7 @@
   </views>
   <instances>
     <instance objName="obj_beteljuce" x="307" y="-41" name="inst_56354353" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_debug_sensor_goto_room" x="-1216" y="1024" name="inst_7169862B" locked="0" code="__rm = rm_fall_c;&#xA;" scaleX="47.238094329834" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_sensor_goto_room" x="-19712" y="1024" name="inst_7169862B" locked="0" code="__rm = rm_fall_c;&#xA;" scaleX="555" scaleY="6" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
