@@ -394,37 +394,57 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_chance.gml</script>
-    <script>scripts\scr_debug_gremlin.gml</script>
-    <script>scripts\scr_asdw_mover_gremlin.gml</script>
-    <script>scripts\scr_debug_move_ball.gml</script>
-    <script>scripts\scr_init_grep_system.gml</script>
-    <script>scripts\scr_init_grip_system.gml</script>
-    <script>scripts\scr_jumper_gamepad_gremlin.gml</script>
-    <script>scripts\scr_jumper_gamepad_p1_gremlin.gml</script>
-    <script>scripts\scr_jumper_gamepad_p2_gremlin.gml</script>
-    <script>scripts\scr_jumper_gamepad_p3_gremlin.gml</script>
-    <script>scripts\scr_jumper_gamepad_p4_gremlin.gml</script>
-    <script>scripts\scr_limit_velocity_gremlin.gml</script>
-    <script>scripts\scr_mover_arrow_keys_gremlin.gml</script>
-    <script>scripts\scr_mover_asdw_gremlin.gml</script>
-    <script>scripts\scr_mover_gamepad_gremlin.gml</script>
-    <script>scripts\scr_mover_gamepad_p1_gremlin.gml</script>
-    <script>scripts\scr_mover_gamepad_p2_gremlin.gml</script>
-    <script>scripts\scr_mover_gamepad_p3_gremlin.gml</script>
-    <script>scripts\scr_mover_gamepad_p4_gremlin.gml</script>
-    <script>scripts\scr_mover_jkli_gremlin.gml</script>
-    <script>scripts\scr_rotator_gamepad_gremlin.gml</script>
-    <script>scripts\scr_rotator_gamepad_p1_gremlin.gml</script>
-    <script>scripts\scr_rotator_gamepad_p2_gremlin.gml</script>
-    <script>scripts\scr_rotator_gamepad_p3_gremlin.gml</script>
-    <script>scripts\scr_rotator_gamepad_p4_gremlin.gml</script>
-    <script>scripts\scr_step_grip_and_grep.gml</script>
-    <script>scripts\scr_sucker_down_gremlin.gml</script>
+    <scripts name="systems">
+      <scripts name="jumper">
+        <script>scripts\scr_jumper_gamepad_gremlin.gml</script>
+        <script>scripts\scr_jumper_gamepad_p1_gremlin.gml</script>
+        <script>scripts\scr_jumper_gamepad_p2_gremlin.gml</script>
+        <script>scripts\scr_jumper_gamepad_p3_gremlin.gml</script>
+        <script>scripts\scr_jumper_gamepad_p4_gremlin.gml</script>
+      </scripts>
+      <scripts name="rotator">
+        <script>scripts\scr_rotator_gamepad_gremlin.gml</script>
+        <script>scripts\scr_rotator_gamepad_p1_gremlin.gml</script>
+        <script>scripts\scr_rotator_gamepad_p2_gremlin.gml</script>
+        <script>scripts\scr_rotator_gamepad_p3_gremlin.gml</script>
+        <script>scripts\scr_rotator_gamepad_p4_gremlin.gml</script>
+      </scripts>
+      <scripts name="step">
+        <script>scripts\scr_step_grip_and_grep.gml</script>
+      </scripts>
+      <scripts name="init">
+        <script>scripts\scr_init_grip_system.gml</script>
+        <script>scripts\scr_init_grep_system.gml</script>
+      </scripts>
+      <scripts name="sucker">
+        <script>scripts\scr_sucker_down_gremlin.gml</script>
+      </scripts>
+      <scripts name="mover">
+        <script>scripts\scr_mover_gamepad_gremlin.gml</script>
+        <script>scripts\scr_mover_gamepad_p1_gremlin.gml</script>
+        <script>scripts\scr_mover_gamepad_p2_gremlin.gml</script>
+        <script>scripts\scr_mover_gamepad_p3_gremlin.gml</script>
+        <script>scripts\scr_mover_gamepad_p4_gremlin.gml</script>
+        <script>scripts\scr_mover_arrow_keys_gremlin.gml</script>
+        <script>scripts\scr_mover_asdw_gremlin.gml</script>
+        <script>scripts\scr_mover_jkli_gremlin.gml</script>
+      </scripts>
+      <scripts name="limit">
+        <script>scripts\scr_limit_velocity_gremlin.gml</script>
+      </scripts>
+    </scripts>
+    <scripts name="debug">
+      <script>scripts\scr_debug_gremlin.gml</script>
+      <script>scripts\scr_debug_move_ball.gml</script>
+    </scripts>
+    <scripts name="chance">
+      <script>scripts\scr_chance.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="ads">
       <object>objects\obj_ad_reification</object>
+      <object>objects\obj_debug_hold_r_restart_game</object>
     </objects>
     <objects name="overseer_intro">
       <object>objects\obj_overseer_intro</object>
@@ -442,21 +462,30 @@
       <object>objects\obj_umbrella</object>
     </objects>
     <objects name="debug">
-      <object>objects\obj_debug_ball</object>
-      <object>objects\obj_debug_square_wall</object>
-      <object>objects\obj_debug_gremlin</object>
-      <object>objects\obj_debug_room_restarter</object>
-      <object>objects\obj_debug_sensor_restarter</object>
-      <object>objects\obj_debug_sensor_force</object>
-      <object>objects\obj_debug_sensor_goto_room</object>
-      <object>objects\obj_debug_sensor_previous_room</object>
-      <object>objects\obj_debug_sensor_next_room</object>
-      <object>objects\obj_debug_cell</object>
-      <object>objects\obj_debug_any_key_next_room</object>
-      <object>objects\obj_debug_hold_r_restart_game</object>
-      <object>objects\obj_debug_spawner</object>
-      <object>objects\obj_debug_pill_spawner</object>
       <object>objects\obj_debug_song_looper</object>
+      <objects name="sensor">
+        <object>objects\obj_debug_sensor_restarter</object>
+        <object>objects\obj_debug_sensor_force</object>
+        <object>objects\obj_debug_sensor_goto_room</object>
+        <object>objects\obj_debug_sensor_previous_room</object>
+        <object>objects\obj_debug_sensor_next_room</object>
+      </objects>
+      <objects name="spawner">
+        <object>objects\obj_debug_spawner</object>
+        <object>objects\obj_debug_pill_spawner</object>
+      </objects>
+      <objects name="sense">
+        <object>objects\obj_debug_any_key_next_room</object>
+        <object>objects\obj_debug_room_restarter</object>
+      </objects>
+      <objects name="matter">
+        <object>objects\obj_debug_ball</object>
+        <object>objects\obj_debug_gremlin</object>
+        <object>objects\obj_debug_cell</object>
+      </objects>
+      <objects name="wall">
+        <object>objects\obj_debug_square_wall</object>
+      </objects>
     </objects>
     <objects name="player">
       <object>objects\obj_beteljuce</object>
@@ -466,14 +495,14 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <rooms name="debug_first_room">
+    <rooms name="watchers_eyes">
       <room>rooms\rm_ad_room</room>
       <room>rooms\rm_title_screen</room>
       <room>rooms\rm_overseer_intro</room>
       <room>rooms\rm_brecht_platform</room>
       <room>rooms\rm_fun_jump</room>
     </rooms>
-    <rooms name="game">
+    <rooms name="fun_run">
       <room>rooms\rm_second_platform</room>
       <room>rooms\rm_small_fall</room>
       <room>rooms\rm_cake_teaser</room>

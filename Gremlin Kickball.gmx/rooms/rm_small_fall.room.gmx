@@ -51,7 +51,7 @@
   </views>
   <instances>
     <instance objName="obj_debug_square_wall" x="56" y="179" name="inst_BA30059B" locked="0" code="" scaleX="16.1290321350098" scaleY="8.1875" colour="4294967295" rotation="0"/>
-    <instance objName="obj_beteljuce" x="-91" y="9" name="inst_922242EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_beteljuce" x="-182" y="-82" name="inst_922242EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_next_room" x="284" y="645" name="inst_54F6EB9F" locked="0" code="" scaleX="56.7302017211914" scaleY="8.875" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_square_wall" x="-52" y="120" name="inst_2E87CA03" locked="0" code="" scaleX="9.64516162872314" scaleY="13.5161294937134" colour="4294967295" rotation="8"/>
     <instance objName="obj_debug_square_wall" x="-411" y="-213" name="inst_A8280284" locked="0" code="" scaleX="0.9375" scaleY="17" colour="4294967295" rotation="45"/>
@@ -81,8 +81,10 @@
     <instance objName="obj_pizza" x="-220" y="-14240" name="inst_28642931" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pizza" x="100" y="-14400" name="inst_DB890709" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pizza" x="340" y="-14040" name="inst_726DEB04" locked="0" code="" scaleX="64" scaleY="64" colour="4294967295" rotation="0"/>
-    <instance objName="obj_debug_sensor_next_room" x="-879" y="-223" name="inst_0CD7F1C1" locked="0" code="" scaleX="7.46031761169434" scaleY="3.49206352233887" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_sensor_next_room" x="-699" y="-726" name="inst_0CD7F1C1" locked="0" code="" scaleX="7.46031999588013" scaleY="3.49205994606018" colour="4294967295" rotation="0"/>
     <instance objName="obj_carrot" x="364" y="-582" name="inst_E321888E" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_square_wall" x="-521" y="-791" name="inst_F636FBF9" locked="0" code="" scaleX="4.25806474685669" scaleY="18.0645160675049" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_sensor_force" x="-457" y="-200" name="inst_79347BBE" locked="0" code="__xf = 200;&#xA;" scaleX="5.9375" scaleY="6.84126996994019" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
