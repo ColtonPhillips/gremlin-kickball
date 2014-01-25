@@ -395,6 +395,9 @@
       <background>background\bg_crack1</background>
       <background>background\bg_crack2</background>
     </backgrounds>
+    <background>background\bg_high_platform1</background>
+    <background>background\bg_high_platform2</background>
+    <background>background\bg_high_platform3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -498,6 +501,7 @@
         <object>objects\obj_beteljuce_clone</object>
       </objects>
     </objects>
+    <object>objects\obj_debug_view_expander</object>
   </objects>
   <rooms name="rooms">
     <rooms name="watchers_eyes">
@@ -517,6 +521,7 @@
       <room>rooms\rm_fall_b</room>
       <room>rooms\rm_fall_c</room>
       <room>rooms\rm_landing</room>
+      <room>rooms\rm_high_platform</room>
       <room>rooms\rm_crack</room>
       <room>rooms\rm_purple_pit</room>
       <room>rooms\rm_tricky_fall</room>

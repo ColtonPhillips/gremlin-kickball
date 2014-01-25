@@ -52,8 +52,8 @@ audio_play_music(snd_colton_stole_this,true);</code>
   </views>
   <instances>
     <instance objName="obj_debug_sensor_force" x="-128" y="480" name="inst_034C795E" locked="0" code="__xf = 0; __yf = -1000;&#xA;" scaleX="17.5" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="obj_beteljuce" x="461" y="-245" name="inst_32D73E58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_debug_sensor_next_room" x="-33792" y="1440" name="inst_49DCF8CE" locked="0" code="" scaleX="999" scaleY="44" colour="4294967295" rotation="0"/>
+    <instance objName="obj_beteljuce" x="448" y="-64" name="inst_32D73E58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_sensor_next_room" x="-33728" y="704" name="inst_49DCF8CE" locked="0" code="" scaleX="999" scaleY="44" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
