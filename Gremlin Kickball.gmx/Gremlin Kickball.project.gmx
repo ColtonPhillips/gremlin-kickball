@@ -13,17 +13,19 @@
     </sounds>
   </sounds>
   <sprites name="sprites">
-    <sprites name="ads">
-      <sprite>sprites\spr_title_colton</sprite>
-      <sprite>sprites\spr_title_gibson</sprite>
-      <sprite>sprites\spr_paul_ad</sprite>
-      <sprite>sprites\spr_title_lee</sprite>
-      <sprite>sprites\spr_nik_ad_1</sprite>
-      <sprite>sprites\spr_nik_ad_2</sprite>
-      <sprite>sprites\spr_nik_ad_3</sprite>
-      <sprite>sprites\spr_nik_ad_4</sprite>
-      <sprite>sprites\spr_graham_ad</sprite>
-      <sprite>sprites\spr_chad_ad</sprite>
+    <sprites name="watchers_eyes">
+      <sprites name="ads">
+        <sprite>sprites\spr_title_colton</sprite>
+        <sprite>sprites\spr_title_gibson</sprite>
+        <sprite>sprites\spr_paul_ad</sprite>
+        <sprite>sprites\spr_title_lee</sprite>
+        <sprite>sprites\spr_nik_ad_1</sprite>
+        <sprite>sprites\spr_nik_ad_2</sprite>
+        <sprite>sprites\spr_nik_ad_3</sprite>
+        <sprite>sprites\spr_nik_ad_4</sprite>
+        <sprite>sprites\spr_graham_ad</sprite>
+        <sprite>sprites\spr_chad_ad</sprite>
+      </sprites>
     </sprites>
     <sprites name="food_room_ball_pit">
       <sprite>sprites\spr_banana</sprite>
@@ -347,70 +349,85 @@
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <backgrounds name="brecht_platform">
-      <background>background\bg_brecht_platform</background>
-      <background>background\bg_stone_wall</background>
-      <background>background\bg_brecht_blur_platform</background>
-      <background>background\bg_kickball_painterly</background>
-    </backgrounds>
-    <backgrounds name="food_room_ball_pit">
-      <background>background\bg_food_room_ball_pit</background>
-      <background>background\bg_food_room_crawler</background>
-    </backgrounds>
-    <backgrounds name="title_screen">
-      <background>background\bg__debug_frame</background>
-      <background>background\bg_chad_name</background>
-      <background>background\bg_title_screen</background>
-    </backgrounds>
     <backgrounds name="__pile__">
       <background>background\bg_template</background>
+      <backgrounds name="food_room_ball_pit">
+        <background>background\bg_food_room_ball_pit</background>
+        <background>background\bg_food_room_crawler</background>
+      </backgrounds>
     </backgrounds>
-    <backgrounds name="overseer_intro">
-      <background>background\bg_overseer_intro</background>
+    <backgrounds name="watchers_eyes">
+      <backgrounds name="title_screen">
+        <background>background\bg_debug_frame</background>
+        <background>background\bg_chad_name</background>
+        <background>background\bg_title_screen</background>
+        <backgrounds name="overseer_intro">
+          <background>background\bg_overseer_intro</background>
+        </backgrounds>
+      </backgrounds>
+      <backgrounds name="brecht_platform">
+        <background>background\bg_brecht_platform</background>
+        <background>background\bg_stone_wall</background>
+        <background>background\bg_brecht_blur_platform</background>
+      </backgrounds>
+      <backgrounds name="fun_jump">
+        <background>background\bg_kickball_painterly</background>
+      </backgrounds>
     </backgrounds>
     <backgrounds name="fun_run">
       <background>background\bg_simple_run</background>
+      <background>background\bg_cake_tease</background>
+      <background>background\bg_candy_insanity</background>
+      <background>background\bg_small_fall</background>
+      <background>background\bg_food_vortex</background>
     </backgrounds>
-    <background>background\bg_cake_tease</background>
-    <background>background\bg_candy_insanity</background>
+    <backgrounds name="split">
+      <background>background\bg_fall_a</background>
+      <background>background\bg_fall_b</background>
+      <background>background\bg_fall_c</background>
+    </backgrounds>
+    <backgrounds name="landing">
+      <background>background\bg_landing</background>
+      <background>background\bg_purple_pit</background>
+      <background>background\bg_tricky_fall</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <scripts name="suckers">
-      <script>scripts\scr_sucker_down_gremlin.gml</script>
-    </scripts>
-    <scripts name="init">
-      <script>scripts\scr_init_grep_system.gml</script>
-      <script>scripts\scr_init_grip_system.gml</script>
-    </scripts>
-    <scripts name="limiters">
-      <script>scripts\scr_limit_velocity_gremlin.gml</script>
-    </scripts>
-    <scripts name="debug">
-      <script>scripts\scr_debug_move_ball.gml</script>
-      <script>scripts\scr_debug_gremlin.gml</script>
-    </scripts>
-    <scripts name="movers">
-      <script>scripts\scr_mover_asdw_gremlin.gml</script>
-      <script>scripts\scr_mover_jkli_gremlin.gml</script>
-      <script>scripts\scr_mover_gamepad_p1_gremlin.gml</script>
-    </scripts>
-    <scripts name="jumpers">
-      <script>scripts\scr_jumper_gamepad_p1_gremlin.gml</script>
-    </scripts>
-    <scripts name="rotator">
-      <script>scripts\scr_rotator_gamepad_p1_gremlin.gml</script>
-    </scripts>
-    <scripts name="steppers">
-      <script>scripts\scr_step_grip_and_grep.gml</script>
-    </scripts>
+    <script>scripts\scr_chance.gml</script>
+    <script>scripts\scr_debug_gremlin.gml</script>
+    <script>scripts\scr_asdw_mover_gremlin.gml</script>
+    <script>scripts\scr_debug_move_ball.gml</script>
+    <script>scripts\scr_init_grep_system.gml</script>
+    <script>scripts\scr_init_grip_system.gml</script>
+    <script>scripts\scr_jumper_gamepad_gremlin.gml</script>
+    <script>scripts\scr_jumper_gamepad_p1_gremlin.gml</script>
+    <script>scripts\scr_jumper_gamepad_p2_gremlin.gml</script>
+    <script>scripts\scr_jumper_gamepad_p3_gremlin.gml</script>
+    <script>scripts\scr_jumper_gamepad_p4_gremlin.gml</script>
+    <script>scripts\scr_limit_velocity_gremlin.gml</script>
+    <script>scripts\scr_mover_arrow_keys_gremlin.gml</script>
+    <script>scripts\scr_mover_asdw_gremlin.gml</script>
+    <script>scripts\scr_mover_gamepad_gremlin.gml</script>
+    <script>scripts\scr_mover_gamepad_p1_gremlin.gml</script>
+    <script>scripts\scr_mover_gamepad_p2_gremlin.gml</script>
+    <script>scripts\scr_mover_gamepad_p3_gremlin.gml</script>
+    <script>scripts\scr_mover_gamepad_p4_gremlin.gml</script>
+    <script>scripts\scr_mover_jkli_gremlin.gml</script>
+    <script>scripts\scr_rotator_gamepad_gremlin.gml</script>
+    <script>scripts\scr_rotator_gamepad_p1_gremlin.gml</script>
+    <script>scripts\scr_rotator_gamepad_p2_gremlin.gml</script>
+    <script>scripts\scr_rotator_gamepad_p3_gremlin.gml</script>
+    <script>scripts\scr_rotator_gamepad_p4_gremlin.gml</script>
+    <script>scripts\scr_step_grip_and_grep.gml</script>
+    <script>scripts\scr_sucker_down_gremlin.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="ads">
       <object>objects\obj_ad_reification</object>
     </objects>
     <objects name="overseer_intro">
-      <object>objects\obj_overseer</object>
+      <object>objects\obj_overseer_intro</object>
     </objects>
     <objects name="food_room_ball_pit">
       <object>objects\obj_banana</object>
@@ -422,6 +439,7 @@
       <object>objects\obj_cherry</object>
       <object>objects\obj_apple</object>
       <object>objects\obj_reactive_apple</object>
+      <object>objects\obj_umbrella</object>
     </objects>
     <objects name="debug">
       <object>objects\obj_debug_ball</object>
@@ -429,12 +447,16 @@
       <object>objects\obj_debug_gremlin</object>
       <object>objects\obj_debug_room_restarter</object>
       <object>objects\obj_debug_sensor_restarter</object>
+      <object>objects\obj_debug_sensor_force</object>
+      <object>objects\obj_debug_sensor_goto_room</object>
+      <object>objects\obj_debug_sensor_previous_room</object>
+      <object>objects\obj_debug_sensor_next_room</object>
       <object>objects\obj_debug_cell</object>
       <object>objects\obj_debug_any_key_next_room</object>
-      <object>objects\obj_debug_title_song_looper</object>
       <object>objects\obj_debug_hold_r_restart_game</object>
-      <object>objects\obj_debug_sensor_next_room</object>
-      <object>objects\obj_debug_sound_looper</object>
+      <object>objects\obj_debug_spawner</object>
+      <object>objects\obj_debug_pill_spawner</object>
+      <object>objects\obj_debug_song_looper</object>
     </objects>
     <objects name="player">
       <object>objects\obj_beteljuce</object>
@@ -453,12 +475,18 @@
     </rooms>
     <rooms name="game">
       <room>rooms\rm_second_platform</room>
-      <room>rooms\rm_fun_run</room>
+      <room>rooms\rm_small_fall</room>
       <room>rooms\rm_cake_teaser</room>
       <room>rooms\rm_candy_insanity</room>
-      <room>rooms\rm_template</room>
+      <room>rooms\rm_food_vortex</room>
+      <room>rooms\rm_fall_a</room>
+      <room>rooms\rm_fall_b</room>
+      <room>rooms\rm_fall_c</room>
+      <room>rooms\rm_landing</room>
+      <room>rooms\rm_purple_pit</room>
+      <room>rooms\rm_tricky_fall</room>
+      <room>rooms\rm_food_room_ball_pit</room>
     </rooms>
-    <room>rooms\rm_food_room_ball_pit</room>
   </rooms>
   <constants number="11">
     <constant name="magic_sucker">200</constant>
