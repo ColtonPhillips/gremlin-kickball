@@ -7,18 +7,137 @@
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
-  <bbox_right>899</bbox_right>
+  <bbox_right>449</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>539</bbox_bottom>
+  <bbox_bottom>269</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>900</width>
-  <height>540</height>
+  <width>450</width>
+  <height>270</height>
   <frames>
     <frame index="0">images\spr_chad_ad_0.png</frame>
+    <frame index="1">images\spr_chad_ad_1.png</frame>
+    <frame index="2">images\spr_chad_ad_2.png</frame>
+    <frame index="3">images\spr_chad_ad_3.png</frame>
+    <frame index="4">images\spr_chad_ad_4.png</frame>
+    <frame index="5">images\spr_chad_ad_5.png</frame>
+    <frame index="6">images\spr_chad_ad_6.png</frame>
+    <frame index="7">images\spr_chad_ad_7.png</frame>
+    <frame index="8">images\spr_chad_ad_8.png</frame>
+    <frame index="9">images\spr_chad_ad_9.png</frame>
+    <frame index="10">images\spr_chad_ad_10.png</frame>
+    <frame index="11">images\spr_chad_ad_11.png</frame>
+    <frame index="12">images\spr_chad_ad_12.png</frame>
+    <frame index="13">images\spr_chad_ad_13.png</frame>
+    <frame index="14">images\spr_chad_ad_14.png</frame>
+    <frame index="15">images\spr_chad_ad_15.png</frame>
+    <frame index="16">images\spr_chad_ad_16.png</frame>
+    <frame index="17">images\spr_chad_ad_17.png</frame>
+    <frame index="18">images\spr_chad_ad_18.png</frame>
+    <frame index="19">images\spr_chad_ad_19.png</frame>
+    <frame index="20">images\spr_chad_ad_20.png</frame>
+    <frame index="21">images\spr_chad_ad_21.png</frame>
+    <frame index="22">images\spr_chad_ad_22.png</frame>
+    <frame index="23">images\spr_chad_ad_23.png</frame>
+    <frame index="24">images\spr_chad_ad_24.png</frame>
+    <frame index="25">images\spr_chad_ad_25.png</frame>
+    <frame index="26">images\spr_chad_ad_26.png</frame>
+    <frame index="27">images\spr_chad_ad_27.png</frame>
+    <frame index="28">images\spr_chad_ad_28.png</frame>
+    <frame index="29">images\spr_chad_ad_29.png</frame>
+    <frame index="30">images\spr_chad_ad_30.png</frame>
+    <frame index="31">images\spr_chad_ad_31.png</frame>
+    <frame index="32">images\spr_chad_ad_32.png</frame>
+    <frame index="33">images\spr_chad_ad_33.png</frame>
+    <frame index="34">images\spr_chad_ad_34.png</frame>
+    <frame index="35">images\spr_chad_ad_35.png</frame>
+    <frame index="36">images\spr_chad_ad_36.png</frame>
+    <frame index="37">images\spr_chad_ad_37.png</frame>
+    <frame index="38">images\spr_chad_ad_38.png</frame>
+    <frame index="39">images\spr_chad_ad_39.png</frame>
+    <frame index="40">images\spr_chad_ad_40.png</frame>
+    <frame index="41">images\spr_chad_ad_41.png</frame>
+    <frame index="42">images\spr_chad_ad_42.png</frame>
+    <frame index="43">images\spr_chad_ad_43.png</frame>
+    <frame index="44">images\spr_chad_ad_44.png</frame>
+    <frame index="45">images\spr_chad_ad_45.png</frame>
+    <frame index="46">images\spr_chad_ad_46.png</frame>
+    <frame index="47">images\spr_chad_ad_47.png</frame>
+    <frame index="48">images\spr_chad_ad_48.png</frame>
+    <frame index="49">images\spr_chad_ad_49.png</frame>
+    <frame index="50">images\spr_chad_ad_50.png</frame>
+    <frame index="51">images\spr_chad_ad_51.png</frame>
+    <frame index="52">images\spr_chad_ad_52.png</frame>
+    <frame index="53">images\spr_chad_ad_53.png</frame>
+    <frame index="54">images\spr_chad_ad_54.png</frame>
+    <frame index="55">images\spr_chad_ad_55.png</frame>
+    <frame index="56">images\spr_chad_ad_56.png</frame>
+    <frame index="57">images\spr_chad_ad_57.png</frame>
+    <frame index="58">images\spr_chad_ad_58.png</frame>
+    <frame index="59">images\spr_chad_ad_59.png</frame>
+    <frame index="60">images\spr_chad_ad_60.png</frame>
+    <frame index="61">images\spr_chad_ad_61.png</frame>
+    <frame index="62">images\spr_chad_ad_62.png</frame>
+    <frame index="63">images\spr_chad_ad_63.png</frame>
+    <frame index="64">images\spr_chad_ad_64.png</frame>
+    <frame index="65">images\spr_chad_ad_65.png</frame>
+    <frame index="66">images\spr_chad_ad_66.png</frame>
+    <frame index="67">images\spr_chad_ad_67.png</frame>
+    <frame index="68">images\spr_chad_ad_68.png</frame>
+    <frame index="69">images\spr_chad_ad_69.png</frame>
+    <frame index="70">images\spr_chad_ad_70.png</frame>
+    <frame index="71">images\spr_chad_ad_71.png</frame>
+    <frame index="72">images\spr_chad_ad_72.png</frame>
+    <frame index="73">images\spr_chad_ad_73.png</frame>
+    <frame index="74">images\spr_chad_ad_74.png</frame>
+    <frame index="75">images\spr_chad_ad_75.png</frame>
+    <frame index="76">images\spr_chad_ad_76.png</frame>
+    <frame index="77">images\spr_chad_ad_77.png</frame>
+    <frame index="78">images\spr_chad_ad_78.png</frame>
+    <frame index="79">images\spr_chad_ad_79.png</frame>
+    <frame index="80">images\spr_chad_ad_80.png</frame>
+    <frame index="81">images\spr_chad_ad_81.png</frame>
+    <frame index="82">images\spr_chad_ad_82.png</frame>
+    <frame index="83">images\spr_chad_ad_83.png</frame>
+    <frame index="84">images\spr_chad_ad_84.png</frame>
+    <frame index="85">images\spr_chad_ad_85.png</frame>
+    <frame index="86">images\spr_chad_ad_86.png</frame>
+    <frame index="87">images\spr_chad_ad_87.png</frame>
+    <frame index="88">images\spr_chad_ad_88.png</frame>
+    <frame index="89">images\spr_chad_ad_89.png</frame>
+    <frame index="90">images\spr_chad_ad_90.png</frame>
+    <frame index="91">images\spr_chad_ad_91.png</frame>
+    <frame index="92">images\spr_chad_ad_92.png</frame>
+    <frame index="93">images\spr_chad_ad_93.png</frame>
+    <frame index="94">images\spr_chad_ad_94.png</frame>
+    <frame index="95">images\spr_chad_ad_95.png</frame>
+    <frame index="96">images\spr_chad_ad_96.png</frame>
+    <frame index="97">images\spr_chad_ad_97.png</frame>
+    <frame index="98">images\spr_chad_ad_98.png</frame>
+    <frame index="99">images\spr_chad_ad_99.png</frame>
+    <frame index="100">images\spr_chad_ad_100.png</frame>
+    <frame index="101">images\spr_chad_ad_101.png</frame>
+    <frame index="102">images\spr_chad_ad_102.png</frame>
+    <frame index="103">images\spr_chad_ad_103.png</frame>
+    <frame index="104">images\spr_chad_ad_104.png</frame>
+    <frame index="105">images\spr_chad_ad_105.png</frame>
+    <frame index="106">images\spr_chad_ad_106.png</frame>
+    <frame index="107">images\spr_chad_ad_107.png</frame>
+    <frame index="108">images\spr_chad_ad_108.png</frame>
+    <frame index="109">images\spr_chad_ad_109.png</frame>
+    <frame index="110">images\spr_chad_ad_110.png</frame>
+    <frame index="111">images\spr_chad_ad_111.png</frame>
+    <frame index="112">images\spr_chad_ad_112.png</frame>
+    <frame index="113">images\spr_chad_ad_113.png</frame>
+    <frame index="114">images\spr_chad_ad_114.png</frame>
+    <frame index="115">images\spr_chad_ad_115.png</frame>
+    <frame index="116">images\spr_chad_ad_116.png</frame>
+    <frame index="117">images\spr_chad_ad_117.png</frame>
+    <frame index="118">images\spr_chad_ad_118.png</frame>
+    <frame index="119">images\spr_chad_ad_119.png</frame>
   </frames>
 </sprite>

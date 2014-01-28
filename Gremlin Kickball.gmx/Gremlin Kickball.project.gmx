@@ -41,8 +41,10 @@
       <sprite>sprites\spr_pill</sprite>
     </sprites>
     <sprites name="player">
-      <sprite>sprites\spr_beteljuce_first_time</sprite>
-      <sprite>sprites\spr_rygel_first_time</sprite>
+      <sprite>sprites\spr_beteljuce</sprite>
+      <sprites name="npc">
+        <sprite>sprites\spr_nigel</sprite>
+      </sprites>
     </sprites>
     <sprites name="debug">
       <sprite>sprites\spr_debug_square_wall</sprite>
@@ -421,7 +423,6 @@
       <scripts name="init">
         <script>scripts\scr_init_grip_system.gml</script>
         <script>scripts\scr_init_grep_system.gml</script>
-        <script>scripts\scr_init_spawner_general.gml</script>
       </scripts>
       <scripts name="sucker">
         <script>scripts\scr_sucker_down_gremlin.gml</script>
@@ -441,6 +442,11 @@
       </scripts>
       <scripts name="spawner">
         <script>scripts\scr_spawn_general.gml</script>
+        <script>scripts\scr_init_spawner_general.gml</script>
+      </scripts>
+      <scripts name="walker_npc">
+        <script>scripts\scr_walker_npc.gml</script>
+        <script>scripts\scr_init_walker_npc.gml</script>
       </scripts>
     </scripts>
     <scripts name="debug">
@@ -508,13 +514,17 @@
         <object>objects\obj_beteljuce_clone</object>
       </objects>
     </objects>
+    <objects name="npc">
+      <object>objects\obj_nigel</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="watchers_eyes">
-      <room>rooms\rm_ad_room</room>
+      <room>rooms\rm_ads</room>
       <room>rooms\rm_title_screen</room>
       <room>rooms\rm_overseer_intro</room>
       <room>rooms\rm_brecht_platform</room>
+      <room>rooms\rm_nigel_play</room>
       <room>rooms\rm_fun_jump</room>
     </rooms>
     <rooms name="fun_run">
