@@ -102,6 +102,7 @@
     <instance objName="obj_debug_sensor_goto_room" x="-740" y="-96" name="inst_52801845" locked="0" code="__rm = rm_fall_c;&#xA;" scaleX="9.125" scaleY="32.125" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_goto_room" x="-232" y="1416" name="inst_DE9D5ADB" locked="0" code="__rm = rm_fall_b;&#xA;" scaleX="34.25" scaleY="15.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_goto_room" x="1400" y="-160" name="inst_B0427D4D" locked="0" code="__rm = rm_fall_a;&#xA;" scaleX="15.375" scaleY="27.1875" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_spawner" x="416" y="-3392" name="inst_F1990B29" locked="0" code="scr_init_spawner_general(x,y,obj_pig_cube, 100000,100,0,100000);&#xA;" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

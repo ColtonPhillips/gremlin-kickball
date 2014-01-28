@@ -75,6 +75,7 @@
     <instance objName="obj_debug_sensor_next_room" x="2112" y="256" name="inst_17E9E1E3" locked="0" code="" scaleX="7.06348991394043" scaleY="3.59375" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_square_wall" x="1533" y="755" name="inst_961A732F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_next_room" x="-352" y="400" name="inst_426CCEBF" locked="0" code="" scaleX="4.875" scaleY="6.125" colour="4294967295" rotation="5"/>
+    <instance objName="obj_debug_spawner" x="984" y="40" name="inst_0E488D2E" locked="0" code="__ch = 1;&#xA;__radius = 250;&#xA;__obj = obj_banana;&#xA;__delay = 2000;&#xA;__duration = 1000; &#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

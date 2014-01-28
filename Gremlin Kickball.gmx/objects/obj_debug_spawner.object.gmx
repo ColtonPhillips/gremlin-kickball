@@ -25,8 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>__obj = obj_pill;
-__ch = 1;
+            <string>// x , y 
+//__obj = obj_pill;
+// chance is 1 in 100
+// radius is 0;
+// delay is 5 steps
+// duration is 4000 steps
+scr_init_spawner_general(x,y,obj_pill,100,0,5,4000);
 </string>
           </argument>
         </arguments>
@@ -49,9 +54,8 @@ __ch = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (scr_chance(__ch)) {
-    instance_create(x,y,__obj);
-}
+            <string>scr_spawn_general();
+
 </string>
           </argument>
         </arguments>

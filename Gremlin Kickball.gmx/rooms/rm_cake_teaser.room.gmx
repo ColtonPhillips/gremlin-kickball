@@ -52,11 +52,12 @@
   <instances>
     <instance objName="obj_debug_square_wall" x="-64" y="538" name="inst_61C3511A" locked="0" code="" scaleX="32" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_square_wall" x="428" y="186" name="inst_A1837476" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="45"/>
-    <instance objName="obj_debug_sensor_next_room" x="894" y="44" name="inst_A50E241F" locked="0" code="" scaleX="3.5" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_sensor_next_room" x="936" y="39" name="inst_A50E241F" locked="0" code="" scaleX="3.5" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_beteljuce" x="450" y="-17" name="inst_E5169316" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_debug_sensor_previous_room" x="-648" y="49" name="inst_086ACE34" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_sensor_previous_room" x="-688" y="49" name="inst_086ACE34" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_pig_cube" x="448" y="-11886" name="inst_9B268811" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_square_wall" x="359" y="534" name="inst_6111CAD7" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="45"/>
+    <instance objName="obj_debug_spawner" x="396" y="-1246" name="inst_9D135DE7" locked="0" code="scr_init_spawner_general(x,y,obj_carrot,2,60,500,100000);&#xA;" scaleX="2.3125" scaleY="3.89063000679016" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

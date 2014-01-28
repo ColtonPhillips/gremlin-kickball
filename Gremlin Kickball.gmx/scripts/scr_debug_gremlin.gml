@@ -1,5 +1,5 @@
 // This moves debug gremlin
-// consider deletion , replacement or refactor
+// do not place debug gremlin into any rooms.
 
 direction = point_direction(0, 0, gamepad_axis_value(0, gp_axislh), gamepad_axis_value(0, gp_axislv));
 var magicchince=5;

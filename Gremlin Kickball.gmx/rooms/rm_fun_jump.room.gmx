@@ -3,14 +3,18 @@
   <caption></caption>
   <width>1361</width>
   <height>882</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>3</vsnap>
+  <hsnap>2</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>if (audio_is_playing(snd_windy_pass)) {
+    with (obj_debug_spawner) {
+        instance_destroy();
+    }
+}</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <makerSettings>
@@ -153,6 +157,7 @@
     <instance objName="obj_pizza" x="2432" y="-9888" name="inst_7123C601" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pizza" x="3520" y="-10144" name="inst_CBDC00FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_cell" x="864" y="-11008" name="inst_192DBAED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_spawner" x="508" y="303" name="inst_3D52E823" locked="0" code="scr_init_spawner_general(x,y,obj_beteljuce_clone,1,20,10,200000);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

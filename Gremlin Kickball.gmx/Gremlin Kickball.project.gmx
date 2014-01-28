@@ -377,7 +377,6 @@
       </backgrounds>
     </backgrounds>
     <backgrounds name="fun_run">
-      <background>background\bg_simple_run</background>
       <background>background\bg_cake_tease</background>
       <background>background\bg_candy_insanity</background>
       <background>background\bg_small_fall</background>
@@ -390,14 +389,14 @@
     </backgrounds>
     <backgrounds name="landing">
       <background>background\bg_landing</background>
-      <background>background\bg_purple_pit</background>
-      <background>background\bg_tricky_fall</background>
+      <background>background\bg_high_platform1</background>
+      <background>background\bg_high_platform2</background>
+      <background>background\bg_high_platform3</background>
       <background>background\bg_crack1</background>
       <background>background\bg_crack2</background>
+      <background>background\bg_purple_pit</background>
+      <background>background\bg_tricky_fall</background>
     </backgrounds>
-    <background>background\bg_high_platform1</background>
-    <background>background\bg_high_platform2</background>
-    <background>background\bg_high_platform3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -422,6 +421,7 @@
       <scripts name="init">
         <script>scripts\scr_init_grip_system.gml</script>
         <script>scripts\scr_init_grep_system.gml</script>
+        <script>scripts\scr_init_spawner_general.gml</script>
       </scripts>
       <scripts name="sucker">
         <script>scripts\scr_sucker_down_gremlin.gml</script>
@@ -439,10 +439,15 @@
       <scripts name="limit">
         <script>scripts\scr_limit_velocity_gremlin.gml</script>
       </scripts>
+      <scripts name="spawner">
+        <script>scripts\scr_spawn_general.gml</script>
+      </scripts>
     </scripts>
     <scripts name="debug">
-      <script>scripts\scr_debug_gremlin.gml</script>
-      <script>scripts\scr_debug_move_ball.gml</script>
+      <scripts name="junk">
+        <script>scripts\scr_debug_gremlin.gml</script>
+        <script>scripts\scr_debug_move_ball.gml</script>
+      </scripts>
     </scripts>
     <scripts name="chance">
       <script>scripts\scr_chance.gml</script>
@@ -478,7 +483,6 @@
       </objects>
       <objects name="spawner">
         <object>objects\obj_debug_spawner</object>
-        <object>objects\obj_debug_pill_spawner</object>
       </objects>
       <objects name="sense">
         <object>objects\obj_debug_any_key_next_room</object>
@@ -530,11 +534,12 @@
       <room>rooms\rm_food_room_ball_pit</room>
     </rooms>
   </rooms>
-  <constants number="11">
+  <constants number="15">
+    <constant name="magic_grip_threshold">11</constant>
+    <constant name="magic_grep_threshold">50</constant>
     <constant name="magic_sucker">200</constant>
     <constant name="starting_grip">0</constant>
     <constant name="magic_torque">300</constant>
-    <constant name="magic_jump">-70</constant>
     <constant name="starting_grep">100</constant>
     <constant name="damping_x_gremlin">2</constant>
     <constant name="damping_y_gremlin">12</constant>
@@ -542,6 +547,9 @@
     <constant name="favorite_number">42</constant>
     <constant name="limiter_x_gremlin">500</constant>
     <constant name="limiter_y_gremlin">300</constant>
+    <constant name="magic_jump_impulse_gremlin">-80</constant>
+    <constant name="magic_jump_force_gremlin">-115</constant>
+    <constant name="magic_let_go_gremlin">42</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
