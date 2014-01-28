@@ -40,7 +40,7 @@
     <background visible="-1" foreground="-1" name="bg__debug_frame" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="" xview="0" yview="0" wview="900" hview="540" xport="0" yport="0" wport="900" hport="540" hborder="32" vborder="0" hspeed="7" vspeed="0"/>
+    <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="900" hview="540" xport="0" yport="0" wport="900" hport="540" hborder="32" vborder="0" hspeed="7" vspeed="0"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -4797,7 +4797,7 @@
     <instance objName="obj_debug_spawner" x="884" y="-3928" name="inst_3F3D2A7B" locked="0" code="__ch = 3;&#xA;__obj = obj_cucumber;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_view_expander" x="898" y="-3996" name="inst_FFF81CB7" locked="0" code="__obj = obj_reactive_apple;&#xA;__ch = 6;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_view_expander" x="218" y="238" name="inst_85F23AEA" locked="0" code="__sp = 2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_debug_camera_pusher" x="198" y="484" name="inst_ABF137A1" locked="0" code="__x = 0; __y = -1; __ch = 4;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_view_pusher" x="198" y="484" name="inst_ABF137A1" locked="0" code="__x = 0; __y = -1; __ch = 4;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_carrot" x="152" y="-1226" name="inst_25A6F353" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

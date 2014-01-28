@@ -349,7 +349,6 @@
       <sprite>sprites\spr_bea</sprite>
       <sprite>sprites\spr_debug_cell</sprite>
     </sprites>
-    <sprite>sprites\sprite321</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="__pile__">
@@ -470,7 +469,6 @@
       <object>objects\obj_umbrella</object>
     </objects>
     <objects name="debug">
-      <object>objects\obj_debug_song_looper</object>
       <objects name="sensor">
         <object>objects\obj_debug_sensor_restarter</object>
         <object>objects\obj_debug_sensor_force</object>
@@ -495,6 +493,10 @@
         <object>objects\obj_debug_square_wall</object>
         <object>objects\obj_debug_circle_wall</object>
       </objects>
+      <objects name="view">
+        <object>objects\obj_debug_view_pusher</object>
+        <object>objects\obj_debug_view_expander</object>
+      </objects>
     </objects>
     <objects name="player">
       <object>objects\obj_beteljuce</object>
@@ -502,8 +504,6 @@
         <object>objects\obj_beteljuce_clone</object>
       </objects>
     </objects>
-    <object>objects\obj_debug_view_expander</object>
-    <object>objects\obj_debug_camera_pusher</object>
   </objects>
   <rooms name="rooms">
     <rooms name="watchers_eyes">
@@ -529,7 +529,6 @@
       <room>rooms\rm_tricky_fall</room>
       <room>rooms\rm_food_room_ball_pit</room>
     </rooms>
-    <room>rooms\room19</room>
   </rooms>
   <constants number="11">
     <constant name="magic_sucker">200</constant>
