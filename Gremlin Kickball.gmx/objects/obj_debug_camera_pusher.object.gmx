@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>__sp = 1;
-super_hzoom = view_hview[0];
-super_wzoom = view_wview[0];
+            <string>__x = 0;
+__y = 0;
+__ch = 0;
 </string>
           </argument>
         </arguments>
@@ -50,10 +50,10 @@ super_wzoom = view_wview[0];
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>super_hzoom += __sp;
-super_wzoom += __sp;
-view_hview[0] = super_hzoom;
-view_wview[0] = super_wzoom;
+            <string>if (scr_chance(__ch)) {
+    view_xview[0] += __x;
+    view_yview[0] += __y;
+}
 </string>
           </argument>
         </arguments>
@@ -73,6 +73,6 @@ view_wview[0] = super_wzoom;
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>0,0</point>
-    <point>32,32</point>
+    <point>16,16</point>
   </PhysicsShapePoints>
 </object>

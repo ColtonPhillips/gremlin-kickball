@@ -349,6 +349,7 @@
       <sprite>sprites\spr_bea</sprite>
       <sprite>sprites\spr_debug_cell</sprite>
     </sprites>
+    <sprite>sprites\sprite321</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="__pile__">
@@ -502,6 +503,7 @@
       </objects>
     </objects>
     <object>objects\obj_debug_view_expander</object>
+    <object>objects\obj_debug_camera_pusher</object>
   </objects>
   <rooms name="rooms">
     <rooms name="watchers_eyes">
@@ -527,6 +529,7 @@
       <room>rooms\rm_tricky_fall</room>
       <room>rooms\rm_food_room_ball_pit</room>
     </rooms>
+    <room>rooms\room19</room>
   </rooms>
   <constants number="11">
     <constant name="magic_sucker">200</constant>
