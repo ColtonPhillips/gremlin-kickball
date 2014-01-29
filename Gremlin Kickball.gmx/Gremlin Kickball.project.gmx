@@ -79,6 +79,7 @@
     </sprites>
     <sprites name="player">
       <sprite>sprites\spr_beteljuce</sprite>
+      <sprite>sprites\spr_rygel</sprite>
       <sprites name="npc">
         <sprite>sprites\spr_nigel</sprite>
       </sprites>
@@ -524,6 +525,7 @@
       <object>objects\obj_beteljuce</object>
       <objects name="clones">
         <object>objects\obj_beteljuce_clone</object>
+        <object>objects\obj_rygel_clone</object>
       </objects>
     </objects>
     <objects name="npc">
@@ -557,7 +559,7 @@
       <room>rooms\rm_landing</room>
       <room>rooms\rm_high_platform</room>
       <room>rooms\rm_crack</room>
-      <room>rooms\rm_purple_pit</room>
+      <room>rooms\rm_digestion</room>
       <room>rooms\rm_tricky_fall</room>
       <room>rooms\rm_food_room_ball_pit</room>
     </rooms>
