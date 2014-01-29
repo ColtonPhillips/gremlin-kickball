@@ -14,6 +14,43 @@
     </sounds>
   </sounds>
   <sprites name="sprites">
+    <sprites name="balls">
+      <sprite>sprites\spr_debug_cell</sprite>
+      <sprite>sprites\spr_dpad</sprite>
+      <sprite>sprites\spr_crumble</sprite>
+      <sprite>sprites\spr_berry</sprite>
+      <sprite>sprites\spr_boingo</sprite>
+      <sprite>sprites\spr_art_sad</sprite>
+      <sprite>sprites\spr_apple_scan</sprite>
+      <sprite>sprites\spr_burning_man</sprite>
+      <sprite>sprites\spr_cell</sprite>
+      <sprite>sprites\spr_bright_cell</sprite>
+      <sprite>sprites\spr_moon_spite</sprite>
+      <sprite>sprites\spr_magnet_ball</sprite>
+      <sprite>sprites\spr_grump</sprite>
+      <sprite>sprites\spr_reaction</sprite>
+      <sprite>sprites\spr_sun</sprite>
+      <sprite>sprites\spr_shatter</sprite>
+      <sprite>sprites\spr_art_rygal</sprite>
+      <sprite>sprites\spr_skull</sprite>
+      <sprite>sprites\spr_sharp_fleck</sprite>
+      <sprite>sprites\spr_rock_weird</sprite>
+      <sprite>sprites\spr_pencil_fat</sprite>
+      <sprite>sprites\spr_megaglass</sprite>
+      <sprite>sprites\spr_glitch_ball</sprite>
+      <sprite>sprites\spr_grem_coin</sprite>
+      <sprite>sprites\spr_fleck</sprite>
+      <sprite>sprites\spr_fish_bowl</sprite>
+      <sprite>sprites\spr_eyeball_big</sprite>
+      <sprite>sprites\spr_bright_orb</sprite>
+      <sprite>sprites\spr_cyclome</sprite>
+      <sprite>sprites\spr_blue_block</sprite>
+      <sprite>sprites\spr_ball</sprite>
+      <sprite>sprites\spr_ball_cloud</sprite>
+      <sprite>sprites\spr_bit</sprite>
+      <sprite>sprites\spr_ball_big</sprite>
+      <sprite>sprites\spr_chip</sprite>
+    </sprites>
     <sprites name="watchers_eyes">
       <sprites name="ads">
         <sprite>sprites\spr_title_colton</sprite>
@@ -115,7 +152,6 @@
       <sprite>sprites\spr_thrasher</sprite>
     </sprites>
     <sprites name="__pile__">
-      <sprite>sprites\spr_ball_big</sprite>
       <sprite>sprites\spr_art_angle</sprite>
       <sprite>sprites\spr_art_cow</sprite>
       <sprite>sprites\spr_art_force</sprite>
@@ -124,44 +160,32 @@
       <sprite>sprites\spr_art_meeting_eyes</sprite>
       <sprite>sprites\spr_art_moon</sprite>
       <sprite>sprites\spr_art_pig</sprite>
-      <sprite>sprites\spr_ball</sprite>
-      <sprite>sprites\spr_ball_cloud</sprite>
       <sprite>sprites\spr_beaker_full</sprite>
-      <sprite>sprites\spr_bit</sprite>
       <sprite>sprites\spr_black_tree</sprite>
-      <sprite>sprites\spr_blue_block</sprite>
       <sprite>sprites\spr_book_bright</sprite>
       <sprite>sprites\spr_book_spacious</sprite>
-      <sprite>sprites\spr_bright_orb</sprite>
       <sprite>sprites\spr_buck_tooth</sprite>
       <sprite>sprites\spr_bug_thug</sprite>
       <sprite>sprites\spr_cane_epic</sprite>
-      <sprite>sprites\spr_chip</sprite>
       <sprite>sprites\spr_clod</sprite>
       <sprite>sprites\spr_collapsed_pill</sprite>
       <sprite>sprites\spr_crazy_week</sprite>
       <sprite>sprites\spr_crossbow</sprite>
-      <sprite>sprites\spr_cyclome</sprite>
       <sprite>sprites\spr_dactyl</sprite>
       <sprite>sprites\spr_death_star</sprite>
       <sprite>sprites\spr_douglas</sprite>
       <sprite>sprites\spr_evolution</sprite>
-      <sprite>sprites\spr_eyeball_big</sprite>
       <sprite>sprites\spr_firecube</sprite>
-      <sprite>sprites\spr_fish_bowl</sprite>
-      <sprite>sprites\spr_fleck</sprite>
       <sprite>sprites\spr_floater</sprite>
       <sprite>sprites\spr_floppy_disk</sprite>
       <sprite>sprites\spr_flower_sphere</sprite>
       <sprite>sprites\spr_gem</sprite>
       <sprite>sprites\spr_ghost_flash</sprite>
       <sprite>sprites\spr_gimpy_blood</sprite>
-      <sprite>sprites\spr_glitch_ball</sprite>
       <sprite>sprites\spr_glitch_gif</sprite>
       <sprite>sprites\spr_goro</sprite>
       <sprite>sprites\spr_goths</sprite>
       <sprite>sprites\spr_grai_box</sprite>
-      <sprite>sprites\spr_grem_coin</sprite>
       <sprite>sprites\spr_gremlin_beard_shoes</sprite>
       <sprite>sprites\spr_gremlin_doctor</sprite>
       <sprite>sprites\spr_gremlin_hat</sprite>
@@ -177,7 +201,6 @@
       <sprite>sprites\spr_man_simple</sprite>
       <sprite>sprites\spr_marshi</sprite>
       <sprite>sprites\spr_marshmellow_boy</sprite>
-      <sprite>sprites\spr_megaglass</sprite>
       <sprite>sprites\spr_missile</sprite>
       <sprite>sprites\spr_molecules</sprite>
       <sprite>sprites\spr_nicolas</sprite>
@@ -185,7 +208,6 @@
       <sprite>sprites\spr_ninja_stone</sprite>
       <sprite>sprites\spr_nozo</sprite>
       <sprite>sprites\spr_omnos</sprite>
-      <sprite>sprites\spr_pencil_fat</sprite>
       <sprite>sprites\spr_phantom_scene</sprite>
       <sprite>sprites\spr_puck</sprite>
       <sprite>sprites\spr_rainbow_turd</sprite>
@@ -194,13 +216,11 @@
       <sprite>sprites\spr_rifle</sprite>
       <sprite>sprites\spr_robot</sprite>
       <sprite>sprites\spr_robot_dead</sprite>
-      <sprite>sprites\spr_rock_weird</sprite>
       <sprite>sprites\spr_roots</sprite>
       <sprite>sprites\spr_sariyona</sprite>
       <sprite>sprites\spr_scratcher</sprite>
       <sprite>sprites\spr_self_slime</sprite>
       <sprite>sprites\spr_sensei</sprite>
-      <sprite>sprites\spr_sharp_fleck</sprite>
       <sprite>sprites\spr_sharp_mote</sprite>
       <sprite>sprites\spr_shield</sprite>
       <sprite>sprites\spr_shiny_small</sprite>
@@ -208,7 +228,6 @@
       <sprite>sprites\spr_shit_paint_vortex</sprite>
       <sprite>sprites\spr_shurikin</sprite>
       <sprite>sprites\spr_simple_machine</sprite>
-      <sprite>sprites\spr_skull</sprite>
       <sprite>sprites\spr_sleepy_pizza</sprite>
       <sprite>sprites\spr_balls_sticks</sprite>
       <sprite>sprites\spr_small_gun</sprite>
@@ -233,13 +252,9 @@
       <sprite>sprites\spr_sludge</sprite>
       <sprite>sprites\spr_flyer</sprite>
       <sprite>sprites\spr_walker_tiny</sprite>
-      <sprite>sprites\spr_shatter</sprite>
       <sprite>sprites\spr_walker</sprite>
       <sprite>sprites\spr_laputa</sprite>
       <sprite>sprites\spr_unknown</sprite>
-      <sprite>sprites\spr_reaction</sprite>
-      <sprite>sprites\spr_grump</sprite>
-      <sprite>sprites\spr_art_rygal</sprite>
       <sprite>sprites\spr_skier</sprite>
       <sprite>sprites\spr_uzi</sprite>
       <sprite>sprites\spr_pixlbot</sprite>
@@ -248,20 +263,14 @@
       <sprite>sprites\spr_pieman</sprite>
       <sprite>sprites\spr_cosmo</sprite>
       <sprite>sprites\spr_picture_box</sprite>
-      <sprite>sprites\spr_magnet_ball</sprite>
       <sprite>sprites\spr_zap</sprite>
       <sprite>sprites\spr_wasp_sweet</sprite>
       <sprite>sprites\spr_runner</sprite>
-      <sprite>sprites\spr_sun</sprite>
       <sprite>sprites\spr_limetex</sprite>
       <sprite>sprites\spr_grem_up</sprite>
       <sprite>sprites\spr_slime_project</sprite>
       <sprite>sprites\spr_body</sprite>
-      <sprite>sprites\spr_moon_spite</sprite>
-      <sprite>sprites\spr_burning_man</sprite>
       <sprite>sprites\spr_grep</sprite>
-      <sprite>sprites\spr_bright_cell</sprite>
-      <sprite>sprites\spr_cell</sprite>
       <sprite>sprites\spr_fuzz</sprite>
       <sprite>sprites\spr_wand</sprite>
       <sprite>sprites\spr_waya</sprite>
@@ -270,19 +279,15 @@
       <sprite>sprites\spr_another_style</sprite>
       <sprite>sprites\spr_arrow_puffer</sprite>
       <sprite>sprites\spr_art_heart</sprite>
-      <sprite>sprites\spr_apple_scan</sprite>
       <sprite>sprites\spr_architecture</sprite>
       <sprite>sprites\spr_art_candle</sprite>
       <sprite>sprites\spr_art_jona</sprite>
       <sprite>sprites\spr_art_platform</sprite>
       <sprite>sprites\spr_art_point</sprite>
-      <sprite>sprites\spr_art_sad</sprite>
       <sprite>sprites\spr_ash_layer</sprite>
       <sprite>sprites\spr_astro</sprite>
       <sprite>sprites\spr_baby</sprite>
       <sprite>sprites\spr_bean</sprite>
-      <sprite>sprites\spr_berry</sprite>
-      <sprite>sprites\spr_boingo</sprite>
       <sprite>sprites\spr_book_float</sprite>
       <sprite>sprites\spr_broken_juggler</sprite>
       <sprite>sprites\spr_burn_background</sprite>
@@ -291,11 +296,9 @@
       <sprite>sprites\spr_clear_box</sprite>
       <sprite>sprites\spr_core</sprite>
       <sprite>sprites\spr_crisp</sprite>
-      <sprite>sprites\spr_crumble</sprite>
       <sprite>sprites\spr_dancer</sprite>
       <sprite>sprites\spr_death</sprite>
       <sprite>sprites\spr_dimension</sprite>
-      <sprite>sprites\spr_dpad</sprite>
       <sprite>sprites\spr_egg_floor</sprite>
       <sprite>sprites\spr_even_split</sprite>
       <sprite>sprites\spr_extra_pack</sprite>
@@ -349,7 +352,6 @@
       <sprite>sprites\spr_waves_background</sprite>
       <sprite>sprites\spr_wormipedo</sprite>
       <sprite>sprites\spr_bea</sprite>
-      <sprite>sprites\spr_debug_cell</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -448,6 +450,10 @@
         <script>scripts\scr_walker_npc.gml</script>
         <script>scripts\scr_init_walker_npc.gml</script>
       </scripts>
+      <scripts name="talker">
+        <script>scripts\scr_init_talker.gml</script>
+        <script>scripts\scr_talk.gml</script>
+      </scripts>
     </scripts>
     <scripts name="debug">
       <scripts name="junk">
@@ -459,6 +465,9 @@
       <script>scripts\scr_chance.gml</script>
     </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_aharoni</font>
+  </fonts>
   <objects name="objects">
     <objects name="ads">
       <object>objects\obj_ad_reification</object>
@@ -507,6 +516,9 @@
         <object>objects\obj_debug_view_pusher</object>
         <object>objects\obj_debug_view_expander</object>
       </objects>
+      <objects name="talker">
+        <object>objects\obj_debug_talker</object>
+      </objects>
     </objects>
     <objects name="player">
       <object>objects\obj_beteljuce</object>
@@ -516,6 +528,12 @@
     </objects>
     <objects name="npc">
       <object>objects\obj_nigel</object>
+    </objects>
+    <objects name="balls">
+      <object>objects\obj_dpad</object>
+    </objects>
+    <objects name="text">
+      <object>objects\obj_text</object>
     </objects>
   </objects>
   <rooms name="rooms">

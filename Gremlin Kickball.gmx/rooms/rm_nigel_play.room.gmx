@@ -59,10 +59,9 @@
     <instance objName="obj_debug_sensor_force" x="256" y="1488" name="inst_197F46A0" locked="0" code="__yf = -1000;&#xA;" scaleX="14.1269998550415" scaleY="12.6983995437622" colour="4294967295" rotation="0"/>
     <instance objName="obj_beteljuce" x="-24" y="1032" name="inst_E32363B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_force" x="-2200" y="-3528" name="inst_CBA3C922" locked="0" code="__xf = 999001;&#xA;" scaleX="12" scaleY="100" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_20089702" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_DC36AEDA" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
     <instance objName="obj_debug_sensor_force" x="248" y="3000" name="inst_D51D6101" locked="0" code="__xf = 999001;&#xA;__yf = -999001;&#xA;" scaleX="100" scaleY="100" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_next_room" x="4712" y="-2904" name="inst_BFF2ADA2" locked="0" code="" scaleX="100" scaleY="100" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_spawner" x="2144" y="-560" name="inst_BE1D3D7C" locked="0" code="scr_init_spawner_general(x,y,obj_dpad,1000,50,5,100000);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
