@@ -2,23 +2,23 @@
 <sound>
   <kind>3</kind>
   <extension>.mp3</extension>
-  <origname>C:\Users\Colton\workspace\gremlin-kickball\Gremlin Kickball.gmx\\sound\audio\snd_tinkerbox.mp3</origname>
+  <origname>Colton Phillips - Chad Lavallee's Gremlin Kickball - 05 Tinker Box.mp3</origname>
   <effects>0</effects>
   <volume>
     <volume>1</volume>
   </volume>
   <pan>0</pan>
   <bitRates>
-    <bitRate>16</bitRate>
+    <bitRate>320</bitRate>
   </bitRates>
   <sampleRates>
-    <sampleRate>256</sampleRate>
+    <sampleRate>44100</sampleRate>
   </sampleRates>
   <types>
-    <type>0</type>
+    <type>1</type>
   </types>
   <bitDepths>
-    <bitDepth>8</bitDepth>
+    <bitDepth>16</bitDepth>
   </bitDepths>
   <preload>-1</preload>
   <data>snd_tinkerbox.mp3</data>

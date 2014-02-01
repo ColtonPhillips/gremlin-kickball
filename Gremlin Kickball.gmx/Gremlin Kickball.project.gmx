@@ -386,6 +386,8 @@
       <background>background\bg_candy_insanity</background>
       <background>background\bg_small_fall</background>
       <background>background\bg_food_vortex</background>
+      <background>background\bg_pizza_poop_zone</background>
+      <background>background\bg_red_chad</background>
     </backgrounds>
     <backgrounds name="split">
       <background>background\bg_fall_a</background>
@@ -402,6 +404,7 @@
       <background>background\bg_purple_pit</background>
       <background>background\bg_tricky_fall</background>
     </backgrounds>
+    <background>background\bg_trippy_picture</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -537,6 +540,7 @@
     <objects name="text">
       <object>objects\obj_text</object>
     </objects>
+    <object>objects\object35</object>
   </objects>
   <rooms name="rooms">
     <rooms name="watchers_eyes">
@@ -550,8 +554,11 @@
     <rooms name="fun_run">
       <room>rooms\rm_second_platform</room>
       <room>rooms\rm_small_fall</room>
+      <room>rooms\rm_pizza_poop_zone</room>
       <room>rooms\rm_cake_teaser</room>
       <room>rooms\rm_candy_insanity</room>
+      <room>rooms\rm_digestion</room>
+      <room>rooms\rm_tricky_fall</room>
       <room>rooms\rm_food_vortex</room>
       <room>rooms\rm_fall_a</room>
       <room>rooms\rm_fall_b</room>
@@ -559,8 +566,7 @@
       <room>rooms\rm_landing</room>
       <room>rooms\rm_high_platform</room>
       <room>rooms\rm_crack</room>
-      <room>rooms\rm_digestion</room>
-      <room>rooms\rm_tricky_fall</room>
+      <room>rooms\rm_overseer_lounge</room>
       <room>rooms\rm_food_room_ball_pit</room>
     </rooms>
   </rooms>
