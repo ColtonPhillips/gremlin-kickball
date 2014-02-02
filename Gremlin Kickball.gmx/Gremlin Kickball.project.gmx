@@ -10,10 +10,241 @@
       <sound>sound\snd_uprising</sound>
       <sound>sound\snd_tinkerbox</sound>
       <sound>sound\snd_colton_stole_this</sound>
+      <sound>sound\snd_easy_win</sound>
       <sound>sound\snd_windy_pass</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
+    <sprites name="weapon">
+      <sprite>sprites\spr_crossbow</sprite>
+      <sprite>sprites\spr_gun_big</sprite>
+      <sprite>sprites\spr_rifle</sprite>
+      <sprite>sprites\spr_uzi</sprite>
+      <sprite>sprites\spr_small_gun</sprite>
+      <sprite>sprites\spr_sniper</sprite>
+      <sprite>sprites\spr_wand</sprite>
+      <sprite>sprites\spr_sword</sprite>
+    </sprites>
+    <sprites name="collectables">
+      <sprite>sprites\spr_moltano</sprite>
+      <sprite>sprites\spr_gem</sprite>
+      <sprite>sprites\spr_shield</sprite>
+    </sprites>
+    <sprites name="portal">
+      <sprite>sprites\spr_portal</sprite>
+      <sprite>sprites\spr_hatetractor</sprite>
+    </sprites>
+    <sprites name="titles">
+      <sprite>sprites\spr_title_frosttree_games</sprite>
+      <sprite>sprites\spr_title_prince_protect</sprite>
+      <sprite>sprites\spr_pixlbot</sprite>
+    </sprites>
+    <sprites name="triangle">
+      <sprite>sprites\spr_sleepy_pizza</sprite>
+    </sprites>
+    <sprites name="tiny">
+      <sprite>sprites\spr_kata</sprite>
+      <sprite>sprites\spr_shiny_small</sprite>
+      <sprite>sprites\spr_fizz</sprite>
+      <sprite>sprites\spr_static</sprite>
+      <sprite>sprites\spr_body</sprite>
+    </sprites>
+    <sprites name="gremlin">
+      <sprite>sprites\spr_gremlin_beard_shoes</sprite>
+      <sprite>sprites\spr_gremlin_doctor</sprite>
+      <sprite>sprites\spr_gremlin_hat</sprite>
+      <sprite>sprites\spr_gremlin_large_shoes</sprite>
+      <sprite>sprites\spr_gremlin_scientist</sprite>
+      <sprite>sprites\spr_gremlin_side</sprite>
+      <sprite>sprites\spr_gremlin_small</sprite>
+    </sprites>
+    <sprites name="odd">
+      <sprite>sprites\spr_cane_epic</sprite>
+      <sprite>sprites\spr_ghost_flash</sprite>
+      <sprite>sprites\spr_roots</sprite>
+      <sprite>sprites\spr_ship</sprite>
+      <sprite>sprites\spr_unknown</sprite>
+      <sprite>sprites\spr_vessel</sprite>
+      <sprite>sprites\spr_limetex</sprite>
+      <sprite>sprites\spr_pulse</sprite>
+      <sprite>sprites\spr_siren</sprite>
+    </sprites>
+    <sprites name="square">
+      <sprite>sprites\spr_rubix_cube</sprite>
+      <sprite>sprites\spr_tiny_hat</sprite>
+      <sprite>sprites\spr_dumbell</sprite>
+      <sprite>sprites\spr_perfume</sprite>
+      <sprite>sprites\spr_blue_spack</sprite>
+      <sprite>sprites\spr_nail_file</sprite>
+      <sprite>sprites\spr_plunger</sprite>
+      <sprite>sprites\spr_needle</sprite>
+      <sprite>sprites\spr_tiny_pitchfork</sprite>
+      <sprite>sprites\spr_yellow_book</sprite>
+      <sprite>sprites\spr_green_book</sprite>
+      <sprite>sprites\spr_red_book</sprite>
+      <sprite>sprites\spr_brown_book</sprite>
+      <sprite>sprites\spr_present</sprite>
+      <sprite>sprites\spr_candle</sprite>
+      <sprite>sprites\spr_hanging_light</sprite>
+      <sprite>sprites\spr_sand_timer</sprite>
+      <sprite>sprites\spr_book_big</sprite>
+      <sprite>sprites\spr_black_tree</sprite>
+      <sprite>sprites\spr_floppy_disk</sprite>
+      <sprite>sprites\spr_grai_box</sprite>
+      <sprite>sprites\flashing_box</sprite>
+      <sprite>sprites\spr_book_float</sprite>
+      <sprite>sprites\spr_face_box</sprite>
+      <sprite>sprites\spr_pig_squad</sprite>
+      <sprite>sprites\spr_clear_box</sprite>
+    </sprites>
+    <sprites name="npc">
+      <sprite>sprites\spr_crab</sprite>
+      <sprite>sprites\spr_red_fish</sprite>
+      <sprite>sprites\spr_symbol</sprite>
+      <sprite>sprites\spr_still_cat</sprite>
+      <sprite>sprites\spr_dink</sprite>
+      <sprite>sprites\spr_tiny_head</sprite>
+      <sprite>sprites\spr_nigel</sprite>
+      <sprite>sprites\spr_thrasher</sprite>
+      <sprite>sprites\spr_buck_tooth</sprite>
+      <sprite>sprites\spr_bug_thug</sprite>
+      <sprite>sprites\spr_clod</sprite>
+      <sprite>sprites\spr_crazy_week</sprite>
+      <sprite>sprites\spr_dactyl</sprite>
+      <sprite>sprites\spr_goro</sprite>
+      <sprite>sprites\spr_floater</sprite>
+      <sprite>sprites\spr_gimpy_blood</sprite>
+      <sprite>sprites\spr_man_plant</sprite>
+      <sprite>sprites\spr_marshi</sprite>
+      <sprite>sprites\spr_ninja_stone</sprite>
+      <sprite>sprites\spr_man_simple</sprite>
+      <sprite>sprites\spr_omnos</sprite>
+      <sprite>sprites\spr_phantom_scene</sprite>
+      <sprite>sprites\spr_redbot</sprite>
+      <sprite>sprites\spr_rider</sprite>
+      <sprite>sprites\spr_robot</sprite>
+      <sprite>sprites\spr_robot_dead</sprite>
+      <sprite>sprites\spr_sariyona</sprite>
+      <sprite>sprites\spr_sensei</sprite>
+      <sprite>sprites\spr_self_slime</sprite>
+      <sprite>sprites\spr_crawler</sprite>
+      <sprite>sprites\spr_gob</sprite>
+      <sprite>sprites\spr_flyer_fire</sprite>
+      <sprite>sprites\spr_angry_walker</sprite>
+      <sprite>sprites\spr_scriff</sprite>
+      <sprite>sprites\spr_theif</sprite>
+      <sprite>sprites\spr_joint</sprite>
+      <sprite>sprites\spr_goths</sprite>
+      <sprite>sprites\spr_tiny_zombie</sprite>
+      <sprite>sprites\spr_doodler</sprite>
+      <sprite>sprites\spr_universe_chad</sprite>
+      <sprite>sprites\spr_sludge</sprite>
+      <sprite>sprites\spr_flyer</sprite>
+      <sprite>sprites\spr_walker_tiny</sprite>
+      <sprite>sprites\spr_walker</sprite>
+      <sprite>sprites\spr_laputa</sprite>
+      <sprite>sprites\spr_skier</sprite>
+      <sprite>sprites\spr_turtle</sprite>
+      <sprite>sprites\spr_pieman</sprite>
+      <sprite>sprites\spr_wasp_sweet</sprite>
+      <sprite>sprites\spr_runner</sprite>
+      <sprite>sprites\spr_slime_project</sprite>
+      <sprite>sprites\spr_waya</sprite>
+      <sprite>sprites\spr_wolfwheel</sprite>
+      <sprite>sprites\spr_astro</sprite>
+      <sprite>sprites\spr_bean</sprite>
+      <sprite>sprites\spr_baby</sprite>
+      <sprite>sprites\spr_broken_juggler</sprite>
+      <sprite>sprites\spr_death</sprite>
+      <sprite>sprites\spr_overseer</sprite>
+      <sprite>sprites\spr_feeler</sprite>
+      <sprite>sprites\spr_ghost</sprite>
+      <sprite>sprites\spr_ghost_pattern</sprite>
+      <sprite>sprites\spr_glomp</sprite>
+      <sprite>sprites\spr_gobbler</sprite>
+      <sprite>sprites\spr_heart_bump</sprite>
+      <sprite>sprites\spr_humbler</sprite>
+      <sprite>sprites\spr_jet_set</sprite>
+      <sprite>sprites\spr_scanbox</sprite>
+      <sprite>sprites\spr_rocker</sprite>
+      <sprite>sprites\spr_roller</sprite>
+      <sprite>sprites\spr_waldo</sprite>
+      <sprite>sprites\spr_watcher</sprite>
+      <sprite>sprites\spr_angry_bud</sprite>
+      <sprite>sprites\spr_wormipedo</sprite>
+      <sprite>sprites\spr_night_walker</sprite>
+    </sprites>
+    <sprites name="art">
+      <sprite>sprites\spr_art_angle</sprite>
+      <sprite>sprites\spr_art_cow</sprite>
+      <sprite>sprites\spr_art_force</sprite>
+      <sprite>sprites\spr_art_globe</sprite>
+      <sprite>sprites\spr_art_me</sprite>
+      <sprite>sprites\spr_art_meeting_eyes</sprite>
+      <sprite>sprites\spr_art_moon</sprite>
+      <sprite>sprites\spr_art_pig</sprite>
+      <sprite>sprites\spr_douglas</sprite>
+      <sprite>sprites\spr_evolution</sprite>
+      <sprite>sprites\spr_glitch_gif</sprite>
+      <sprite>sprites\spr_illusion_hatch</sprite>
+      <sprite>sprites\spr_marshmellow_boy</sprite>
+      <sprite>sprites\spr_rainbow_turd</sprite>
+      <sprite>sprites\spr_shit_paint_vortex</sprite>
+      <sprite>sprites\spr_simple_machine</sprite>
+      <sprite>sprites\spr_balls_sticks</sprite>
+      <sprite>sprites\spr_picture_box</sprite>
+      <sprite>sprites\spr_cosmo</sprite>
+      <sprite>sprites\spr_grem_up</sprite>
+      <sprite>sprites\spr_grep</sprite>
+      <sprite>sprites\spr_fuzz</sprite>
+      <sprite>sprites\spr_art_heart</sprite>
+      <sprite>sprites\spr_art_candle</sprite>
+      <sprite>sprites\spr_arrow_puffer</sprite>
+      <sprite>sprites\spr_art_jona</sprite>
+      <sprite>sprites\spr_art_platform</sprite>
+      <sprite>sprites\spr_art_point</sprite>
+      <sprite>sprites\spr_cjp_box</sprite>
+      <sprite>sprites\spr_dimension</sprite>
+      <sprite>sprites\spr_dancer</sprite>
+      <sprite>sprites\spr_graph_box</sprite>
+      <sprite>sprites\spr_fractal_background</sprite>
+      <sprite>sprites\spr_fizz_background</sprite>
+      <sprite>sprites\spr_furry_background</sprite>
+      <sprite>sprites\spr_jitter</sprite>
+      <sprite>sprites\spr_even_split</sprite>
+      <sprite>sprites\spr_mummy</sprite>
+      <sprite>sprites\spr_parchment_of_doubling</sprite>
+      <sprite>sprites\spr_plans</sprite>
+      <sprite>sprites\spr_rust</sprite>
+      <sprite>sprites\spr_spirit</sprite>
+      <sprite>sprites\spr_surface</sprite>
+      <sprite>sprites\spr_tag</sprite>
+      <sprite>sprites\spr_transform</sprite>
+      <sprite>sprites\spr_vortex</sprite>
+      <sprite>sprites\spr_wiggle_background</sprite>
+      <sprite>sprites\spr_wall</sprite>
+      <sprite>sprites\spr_waves_background</sprite>
+      <sprite>sprites\spr_night_party_background</sprite>
+      <sprite>sprites\spr_hover_kart</sprite>
+    </sprites>
+    <sprites name="obstacle">
+      <sprite>sprites\spr_mine</sprite>
+      <sprite>sprites\spr_electricity</sprite>
+      <sprite>sprites\spr_beaker</sprite>
+      <sprite>sprites\spr_collapsed_pill</sprite>
+      <sprite>sprites\spr_missile</sprite>
+      <sprite>sprites\spr_molecules</sprite>
+      <sprite>sprites\spr_nozo</sprite>
+      <sprite>sprites\spr_scratcher</sprite>
+      <sprite>sprites\spr_sharp_mote</sprite>
+      <sprite>sprites\spr_shurikin</sprite>
+      <sprite>sprites\spr_zap</sprite>
+      <sprite>sprites\spr_core</sprite>
+      <sprite>sprites\spr_crisp</sprite>
+      <sprite>sprites\spr_invader</sprite>
+      <sprite>sprites\spr_razor</sprite>
+      <sprite>sprites\spr_rotator</sprite>
+    </sprites>
     <sprites name="balls">
       <sprite>sprites\spr_debug_cell</sprite>
       <sprite>sprites\spr_dpad</sprite>
@@ -50,12 +281,20 @@
       <sprite>sprites\spr_bit</sprite>
       <sprite>sprites\spr_ball_big</sprite>
       <sprite>sprites\spr_chip</sprite>
+      <sprite>sprites\spr_blood_cell</sprite>
+      <sprite>sprites\spr_red_spack</sprite>
+      <sprite>sprites\spr_fancy_ring</sprite>
+      <sprite>sprites\spr_yellow_blit</sprite>
+      <sprite>sprites\spr_blue_orb</sprite>
+      <sprite>sprites\spr_mystery_brown</sprite>
+      <sprite>sprites\spr_death_star</sprite>
+      <sprite>sprites\spr_flower_sphere</sprite>
+      <sprite>sprites\spr_puck</sprite>
     </sprites>
     <sprites name="watchers_eyes">
       <sprites name="ads">
         <sprite>sprites\spr_title_colton</sprite>
         <sprite>sprites\spr_title_gibson</sprite>
-        <sprite>sprites\spr_paul_ad</sprite>
         <sprite>sprites\spr_title_lee</sprite>
         <sprite>sprites\spr_nik_ad_1</sprite>
         <sprite>sprites\spr_nik_ad_2</sprite>
@@ -76,13 +315,11 @@
       <sprite>sprites\spr_apple</sprite>
       <sprite>sprites\spr_reactive_apple</sprite>
       <sprite>sprites\spr_pill</sprite>
+      <sprite>sprites\spr_sushi</sprite>
     </sprites>
     <sprites name="player">
       <sprite>sprites\spr_beteljuce</sprite>
       <sprite>sprites\spr_rygel</sprite>
-      <sprites name="npc">
-        <sprite>sprites\spr_nigel</sprite>
-      </sprites>
     </sprites>
     <sprites name="debug">
       <sprite>sprites\spr_debug_square_wall</sprite>
@@ -93,12 +330,11 @@
       <sprite>sprites\spr_debug_su</sprite>
     </sprites>
     <sprites name="__tile__">
-      <sprite>sprites\crab_set</sprite>
       <sprite>sprites\spr_bad_rocks</sprite>
       <sprite>sprites\spr_berry_pack</sprite>
       <sprite>sprites\spr_black_pickle</sprite>
       <sprite>sprites\spr_black_town</sprite>
-      <sprite>sprites\spr_blob_set</sprite>
+      <sprite>sprites\spr_blob</sprite>
       <sprite>sprites\spr_blue_platform</sprite>
       <sprite>sprites\spr_bomb_explode_tile</sprite>
       <sprite>sprites\spr_bomber_mash_pack</sprite>
@@ -111,7 +347,6 @@
       <sprite>sprites\spr_daniel_set</sprite>
       <sprite>sprites\spr_fantasy_set</sprite>
       <sprite>sprites\spr_flashback</sprite>
-      <sprite>sprites\spr_fun_pack</sprite>
       <sprite>sprites\spr_gameboy_set</sprite>
       <sprite>sprites\spr_gameboy_zone</sprite>
       <sprite>sprites\spr_goblin_pass_set</sprite>
@@ -149,210 +384,18 @@
       <sprite>sprites\spr_trees</sprite>
       <sprite>sprites\spr_wizard_set</sprite>
       <sprite>sprites\sprite_heart_arena</sprite>
-      <sprite>sprites\spr_candy</sprite>
-      <sprite>sprites\spr_thrasher</sprite>
-    </sprites>
-    <sprites name="__pile__">
-      <sprite>sprites\spr_art_angle</sprite>
-      <sprite>sprites\spr_art_cow</sprite>
-      <sprite>sprites\spr_art_force</sprite>
-      <sprite>sprites\spr_art_globe</sprite>
-      <sprite>sprites\spr_art_me</sprite>
-      <sprite>sprites\spr_art_meeting_eyes</sprite>
-      <sprite>sprites\spr_art_moon</sprite>
-      <sprite>sprites\spr_art_pig</sprite>
-      <sprite>sprites\spr_beaker_full</sprite>
-      <sprite>sprites\spr_black_tree</sprite>
-      <sprite>sprites\spr_book_bright</sprite>
-      <sprite>sprites\spr_book_spacious</sprite>
-      <sprite>sprites\spr_buck_tooth</sprite>
-      <sprite>sprites\spr_bug_thug</sprite>
-      <sprite>sprites\spr_cane_epic</sprite>
-      <sprite>sprites\spr_clod</sprite>
-      <sprite>sprites\spr_collapsed_pill</sprite>
-      <sprite>sprites\spr_crazy_week</sprite>
-      <sprite>sprites\spr_crossbow</sprite>
-      <sprite>sprites\spr_dactyl</sprite>
-      <sprite>sprites\spr_death_star</sprite>
-      <sprite>sprites\spr_douglas</sprite>
-      <sprite>sprites\spr_evolution</sprite>
       <sprite>sprites\spr_firecube</sprite>
-      <sprite>sprites\spr_floater</sprite>
-      <sprite>sprites\spr_floppy_disk</sprite>
-      <sprite>sprites\spr_flower_sphere</sprite>
-      <sprite>sprites\spr_gem</sprite>
-      <sprite>sprites\spr_ghost_flash</sprite>
-      <sprite>sprites\spr_gimpy_blood</sprite>
-      <sprite>sprites\spr_glitch_gif</sprite>
-      <sprite>sprites\spr_goro</sprite>
-      <sprite>sprites\spr_goths</sprite>
-      <sprite>sprites\spr_grai_box</sprite>
-      <sprite>sprites\spr_gremlin_beard_shoes</sprite>
-      <sprite>sprites\spr_gremlin_doctor</sprite>
-      <sprite>sprites\spr_gremlin_hat</sprite>
-      <sprite>sprites\spr_gremlin_large_shoes</sprite>
-      <sprite>sprites\spr_gremlin_scientist</sprite>
-      <sprite>sprites\spr_gremlin_side</sprite>
-      <sprite>sprites\spr_gremlin_small</sprite>
-      <sprite>sprites\spr_gun_big</sprite>
-      <sprite>sprites\spr_hamster</sprite>
-      <sprite>sprites\spr_illusion_hatch</sprite>
-      <sprite>sprites\spr_kata</sprite>
-      <sprite>sprites\spr_man_plant</sprite>
-      <sprite>sprites\spr_man_simple</sprite>
-      <sprite>sprites\spr_marshi</sprite>
-      <sprite>sprites\spr_marshmellow_boy</sprite>
-      <sprite>sprites\spr_missile</sprite>
-      <sprite>sprites\spr_molecules</sprite>
       <sprite>sprites\spr_nicolas</sprite>
-      <sprite>sprites\spr_night_walker</sprite>
-      <sprite>sprites\spr_ninja_stone</sprite>
-      <sprite>sprites\spr_nozo</sprite>
-      <sprite>sprites\spr_omnos</sprite>
-      <sprite>sprites\spr_phantom_scene</sprite>
-      <sprite>sprites\spr_puck</sprite>
-      <sprite>sprites\spr_rainbow_turd</sprite>
-      <sprite>sprites\spr_redbot</sprite>
-      <sprite>sprites\spr_rider</sprite>
-      <sprite>sprites\spr_rifle</sprite>
-      <sprite>sprites\spr_robot</sprite>
-      <sprite>sprites\spr_robot_dead</sprite>
-      <sprite>sprites\spr_roots</sprite>
-      <sprite>sprites\spr_sariyona</sprite>
-      <sprite>sprites\spr_scratcher</sprite>
-      <sprite>sprites\spr_self_slime</sprite>
-      <sprite>sprites\spr_sensei</sprite>
-      <sprite>sprites\spr_sharp_mote</sprite>
-      <sprite>sprites\spr_shield</sprite>
-      <sprite>sprites\spr_shiny_small</sprite>
-      <sprite>sprites\spr_ship</sprite>
-      <sprite>sprites\spr_shit_paint_vortex</sprite>
-      <sprite>sprites\spr_shurikin</sprite>
-      <sprite>sprites\spr_simple_machine</sprite>
-      <sprite>sprites\spr_sleepy_pizza</sprite>
-      <sprite>sprites\spr_balls_sticks</sprite>
-      <sprite>sprites\spr_small_gun</sprite>
-      <sprite>sprites\spr_sniper</sprite>
-      <sprite>sprites\spr_crawler</sprite>
-      <sprite>sprites\spr_flyer_fire</sprite>
-      <sprite>sprites\spr_gob</sprite>
-      <sprite>sprites\spr_fizz</sprite>
-      <sprite>sprites\spr_angry_walker</sprite>
-      <sprite>sprites\spr_static</sprite>
-      <sprite>sprites\spr_sushi</sprite>
-      <sprite>sprites\spr_sword</sprite>
-      <sprite>sprites\spr_scriff</sprite>
-      <sprite>sprites\spr_theif</sprite>
-      <sprite>sprites\spr_tiny_zombie</sprite>
-      <sprite>sprites\spr_title_frosttree_games</sprite>
-      <sprite>sprites\spr_joint</sprite>
-      <sprite>sprites\spr_title_prince_protect</sprite>
-      <sprite>sprites\spr_doodler</sprite>
-      <sprite>sprites\spr_portal</sprite>
-      <sprite>sprites\spr_universe_chad</sprite>
-      <sprite>sprites\spr_sludge</sprite>
-      <sprite>sprites\spr_flyer</sprite>
-      <sprite>sprites\spr_walker_tiny</sprite>
-      <sprite>sprites\spr_walker</sprite>
-      <sprite>sprites\spr_laputa</sprite>
-      <sprite>sprites\spr_unknown</sprite>
-      <sprite>sprites\spr_skier</sprite>
-      <sprite>sprites\spr_uzi</sprite>
-      <sprite>sprites\spr_pixlbot</sprite>
-      <sprite>sprites\spr_turtle</sprite>
-      <sprite>sprites\spr_vessel</sprite>
-      <sprite>sprites\spr_pieman</sprite>
-      <sprite>sprites\spr_cosmo</sprite>
-      <sprite>sprites\spr_picture_box</sprite>
-      <sprite>sprites\spr_zap</sprite>
-      <sprite>sprites\spr_wasp_sweet</sprite>
-      <sprite>sprites\spr_runner</sprite>
-      <sprite>sprites\spr_limetex</sprite>
-      <sprite>sprites\spr_grem_up</sprite>
-      <sprite>sprites\spr_slime_project</sprite>
-      <sprite>sprites\spr_body</sprite>
-      <sprite>sprites\spr_grep</sprite>
-      <sprite>sprites\spr_fuzz</sprite>
-      <sprite>sprites\spr_wand</sprite>
-      <sprite>sprites\spr_waya</sprite>
-      <sprite>sprites\spr_wolfwheel</sprite>
-      <sprite>sprites\flashing_box</sprite>
-      <sprite>sprites\spr_another_style</sprite>
-      <sprite>sprites\spr_arrow_puffer</sprite>
-      <sprite>sprites\spr_art_heart</sprite>
+      <sprite>sprites\spr_hamster</sprite>
       <sprite>sprites\spr_architecture</sprite>
-      <sprite>sprites\spr_art_candle</sprite>
-      <sprite>sprites\spr_art_jona</sprite>
-      <sprite>sprites\spr_art_platform</sprite>
-      <sprite>sprites\spr_art_point</sprite>
       <sprite>sprites\spr_ash_layer</sprite>
-      <sprite>sprites\spr_astro</sprite>
-      <sprite>sprites\spr_baby</sprite>
-      <sprite>sprites\spr_bean</sprite>
-      <sprite>sprites\spr_book_float</sprite>
-      <sprite>sprites\spr_broken_juggler</sprite>
       <sprite>sprites\spr_burn_background</sprite>
-      <sprite>sprites\spr_cate</sprite>
-      <sprite>sprites\spr_cjp_box</sprite>
-      <sprite>sprites\spr_clear_box</sprite>
-      <sprite>sprites\spr_core</sprite>
-      <sprite>sprites\spr_crisp</sprite>
-      <sprite>sprites\spr_dancer</sprite>
-      <sprite>sprites\spr_death</sprite>
-      <sprite>sprites\spr_dimension</sprite>
       <sprite>sprites\spr_egg_floor</sprite>
-      <sprite>sprites\spr_even_split</sprite>
       <sprite>sprites\spr_extra_pack</sprite>
-      <sprite>sprites\spr_face_box</sprite>
-      <sprite>sprites\spr_feeler</sprite>
-      <sprite>sprites\spr_fizz_background</sprite>
-      <sprite>sprites\spr_overseer</sprite>
-      <sprite>sprites\spr_fractal_background</sprite>
-      <sprite>sprites\spr_furry_background</sprite>
-      <sprite>sprites\spr_ghost</sprite>
-      <sprite>sprites\spr_ghost_pattern</sprite>
-      <sprite>sprites\spr_glomp</sprite>
-      <sprite>sprites\spr_gobbler</sprite>
-      <sprite>sprites\spr_graph_box</sprite>
-      <sprite>sprites\spr_hatetractor</sprite>
-      <sprite>sprites\spr_heart_bump</sprite>
-      <sprite>sprites\spr_hover_kart</sprite>
-      <sprite>sprites\spr_humbler</sprite>
-      <sprite>sprites\spr_invader</sprite>
-      <sprite>sprites\spr_jet_set</sprite>
-      <sprite>sprites\spr_jitter</sprite>
       <sprite>sprites\spr_layer_crumb</sprite>
       <sprite>sprites\spr_layer_dark_mountain</sprite>
       <sprite>sprites\spr_layer_mountain</sprite>
       <sprite>sprites\spr_light_background</sprite>
-      <sprite>sprites\spr_moltano</sprite>
-      <sprite>sprites\spr_mummy</sprite>
-      <sprite>sprites\spr_night_party_background</sprite>
-      <sprite>sprites\spr_parchment_of_doubling</sprite>
-      <sprite>sprites\spr_pig_squad</sprite>
-      <sprite>sprites\spr_plans</sprite>
-      <sprite>sprites\spr_pulse</sprite>
-      <sprite>sprites\spr_razor</sprite>
-      <sprite>sprites\spr_rocker</sprite>
-      <sprite>sprites\spr_roller</sprite>
-      <sprite>sprites\spr_rotator</sprite>
-      <sprite>sprites\spr_rust</sprite>
-      <sprite>sprites\spr_scanbox</sprite>
-      <sprite>sprites\spr_siren</sprite>
-      <sprite>sprites\spr_spirit</sprite>
-      <sprite>sprites\spr_surface</sprite>
-      <sprite>sprites\spr_tag</sprite>
-      <sprite>sprites\spr_transform</sprite>
-      <sprite>sprites\spr_vortex</sprite>
-      <sprite>sprites\spr_waldo</sprite>
-      <sprite>sprites\spr_wiggle_background</sprite>
-      <sprite>sprites\spr_wall</sprite>
-      <sprite>sprites\spr_wasp_demo</sprite>
-      <sprite>sprites\spr_watcher</sprite>
-      <sprite>sprites\spr_angry_bud</sprite>
-      <sprite>sprites\spr_waves_background</sprite>
-      <sprite>sprites\spr_wormipedo</sprite>
-      <sprite>sprites\spr_bea</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
