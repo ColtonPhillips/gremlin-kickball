@@ -13,6 +13,7 @@
       <sound>sound\snd_easy_win</sound>
       <sound>sound\snd_windy_pass</sound>
     </sounds>
+    <sound>sound\sound6</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="weapon">
@@ -96,6 +97,7 @@
       <sprite>sprites\spr_face_box</sprite>
       <sprite>sprites\spr_pig_squad</sprite>
       <sprite>sprites\spr_clear_box</sprite>
+      <sprite>sprites\spr_green_square</sprite>
     </sprites>
     <sprites name="npc">
       <sprite>sprites\spr_crab</sprite>
@@ -290,6 +292,7 @@
       <sprite>sprites\spr_death_star</sprite>
       <sprite>sprites\spr_flower_sphere</sprite>
       <sprite>sprites\spr_puck</sprite>
+      <sprite>sprites\spr_green_blob</sprite>
     </sprites>
     <sprites name="watchers_eyes">
       <sprites name="ads">
@@ -397,6 +400,106 @@
       <sprite>sprites\spr_layer_mountain</sprite>
       <sprite>sprites\spr_light_background</sprite>
     </sprites>
+    <sprite>sprites\spr_clam</sprite>
+    <sprite>sprites\snd_silver_hat</sprite>
+    <sprite>sprites\spr_candle_cool</sprite>
+    <sprite>sprites\spr_record</sprite>
+    <sprite>sprites\spr_lava_lamp</sprite>
+    <sprite>sprites\spr_bacon</sprite>
+    <sprite>sprites\spr_spooky_mask</sprite>
+    <sprite>sprites\spr_xmas_reef</sprite>
+    <sprite>sprites\spr_donut</sprite>
+    <sprite>sprites\spr_mail</sprite>
+    <sprite>sprites\spr_diamond_ring</sprite>
+    <sprite>sprites\spr_coffee_mug</sprite>
+    <sprite>sprites\spr_piano</sprite>
+    <sprite>sprites\spr_water_jug</sprite>
+    <sprite>sprites\spr_glasses</sprite>
+    <sprite>sprites\spr_big_bomb</sprite>
+    <sprite>sprites\spr_football</sprite>
+    <sprite>sprites\spr_dynamite</sprite>
+    <sprite>sprites\spr_diamond</sprite>
+    <sprite>sprites\spr_window</sprite>
+    <sprite>sprites\spr_comb</sprite>
+    <sprite>sprites\spr_sail_boat_art</sprite>
+    <sprite>sprites\spr_hammer</sprite>
+    <sprite>sprites\spr_a</sprite>
+    <sprite>sprites\spr_baseball</sprite>
+    <sprite>sprites\spr_baby_bird</sprite>
+    <sprite>sprites\spr_ruler</sprite>
+    <sprite>sprites\spr_fridge</sprite>
+    <sprite>sprites\spr_pill_container</sprite>
+    <sprite>sprites\spr_battery</sprite>
+    <sprite>sprites\spr_mega_sword</sprite>
+    <sprite>sprites\spr_fun_pair</sprite>
+    <sprite>sprites\spr_pipe</sprite>
+    <sprite>sprites\spr_telephone</sprite>
+    <sprite>sprites\spr_tiny_cloud</sprite>
+    <sprite>sprites\spr_cactus</sprite>
+    <sprite>sprites\spr_other_pill</sprite>
+    <sprite>sprites\spr_lamp</sprite>
+    <sprite>sprites\spr_crate</sprite>
+    <sprite>sprites\spr_blue_book</sprite>
+    <sprite>sprites\spr_barn</sprite>
+    <sprite>sprites\spr_big_missile</sprite>
+    <sprite>sprites\spr_trash_can</sprite>
+    <sprite>sprites\spr_strange_beaker</sprite>
+    <sprite>sprites\spr_burrito</sprite>
+    <sprite>sprites\spr_potted_flower</sprite>
+    <sprite>sprites\spr_horn</sprite>
+    <sprite>sprites\spr_fire</sprite>
+    <sprite>sprites\spr_red_mushroom</sprite>
+    <sprite>sprites\spr_tiny_green_mushroom</sprite>
+    <sprite>sprites\spr_tiny_pink_mushroom</sprite>
+    <sprite>sprites\spr_cake</sprite>
+    <sprite>sprites\spr_wasp_2</sprite>
+    <sprite>sprites\spr_tiny_eye</sprite>
+    <sprite>sprites\spr_bowling_ball</sprite>
+    <sprite>sprites\spr_tiny_leaf</sprite>
+    <sprite>sprites\spr_bell</sprite>
+    <sprite>sprites\spr_big_fish</sprite>
+    <sprite>sprites\spr_watermelon</sprite>
+    <sprite>sprites\spr_apple_core</sprite>
+    <sprite>sprites\spr_pink_heart</sprite>
+    <sprite>sprites\spr_earth</sprite>
+    <sprite>sprites\spr_man</sprite>
+    <sprite>sprites\spr_mustache</sprite>
+    <sprite>sprites\spr_shoe</sprite>
+    <sprite>sprites\spr_key</sprite>
+    <sprite>sprites\spr_hamburger</sprite>
+    <sprite>sprites\spr_chair</sprite>
+    <sprite>sprites\spr_tiny_baseball</sprite>
+    <sprite>sprites\spr_old_computer</sprite>
+    <sprite>sprites\spr_snail</sprite>
+    <sprite>sprites\spr_turkey_baster</sprite>
+    <sprite>sprites\spr_toothbrush</sprite>
+    <sprite>sprites\spr_hot_dog</sprite>
+    <sprite>sprites\spr_bush</sprite>
+    <sprite>sprites\spr_saw</sprite>
+    <sprite>sprites\spr_gba</sprite>
+    <sprite>sprites\spr_log</sprite>
+    <sprite>sprites\spr_bowling_pin</sprite>
+    <sprite>sprites\spr_dresser</sprite>
+    <sprite>sprites\spr_fried_egg</sprite>
+    <sprite>sprites\spr_chicken</sprite>
+    <sprite>sprites\spr_cell_phone</sprite>
+    <sprite>sprites\spr_shuriken_kyle</sprite>
+    <sprite>sprites\spr_vase</sprite>
+    <sprite>sprites\spr_gnome</sprite>
+    <sprite>sprites\spr_goblet</sprite>
+    <sprite>sprites\spr_corn</sprite>
+    <sprite>sprites\spr_time</sprite>
+    <sprite>sprites\spr_grey_thig</sprite>
+    <sprite>sprites\spr_tiny_tree</sprite>
+    <sprite>sprites\spr_push_pin</sprite>
+    <sprite>sprites\spr_plunger2</sprite>
+    <sprite>sprites\spr_deer</sprite>
+    <sprite>sprites\spr_big_snail</sprite>
+    <sprite>sprites\spr_anvil</sprite>
+    <sprite>sprites\spr_green_milk</sprite>
+    <sprite>sprites\spr_business_suit</sprite>
+    <sprite>sprites\spr_paint_bucket</sprite>
+    <sprite>sprites\spr_seal</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="__pile__">
