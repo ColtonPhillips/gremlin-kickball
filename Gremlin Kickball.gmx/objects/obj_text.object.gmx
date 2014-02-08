@@ -27,6 +27,11 @@
             <kind>1</kind>
             <string>__string = "Grep.";
 if (scr_chance(2)) __string = "Grip.";
+__font = fnt_aharoni;
+__b1 = c_black;
+__b2 = c_blue; 
+__f1 = c_white;
+__f2 = c_lime;
 __duration = 160;
 __off_x = 0;
 __off_y = 0;
@@ -84,14 +89,14 @@ y -= 0.1;
             <string>var _x = x + __off_x;
 var _y = y + __off_y;
 
-draw_set_font(fnt_aharoni);
+draw_set_font(__font);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
-draw_text_transformed_color(_x- 1,_y- 1,__string,1,1,0,c_black,c_black,c_blue,c_blue,__alpha);
-draw_text_transformed_color(_x+ 1,_y- 1,__string,1,1,0,c_black,c_black,c_blue,c_blue,__alpha);
-draw_text_transformed_color(_x- 1,_y+ 1,__string,1,1,0,c_black,c_black,c_blue,c_blue,__alpha);
-draw_text_transformed_color(_x+ 1,_y+ 1,__string,1,1,0,c_black,c_black,c_blue,c_blue,__alpha);
-draw_text_transformed_color(_x,_y      ,__string,1,1,0,c_white,c_white,c_lime,c_lime,__alpha);
+draw_text_transformed_color(_x- 1,_y- 1,__string,1,1,0,__b1,__b1,__b2,__b2,__alpha);
+draw_text_transformed_color(_x+ 1,_y- 1,__string,1,1,0,__b1,__b1,__b2,__b2,__alpha);
+draw_text_transformed_color(_x- 1,_y+ 1,__string,1,1,0,__b1,__b1,__b2,__b2,__alpha);
+draw_text_transformed_color(_x+ 1,_y+ 1,__string,1,1,0,__b1,__b1,__b2,__b2,__alpha);
+draw_text_transformed_color(_x,_y      ,__string,1,1,0,__f1,__f1,__f2,__f2,__alpha);
 </string>
           </argument>
         </arguments>

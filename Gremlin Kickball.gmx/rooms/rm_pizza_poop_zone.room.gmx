@@ -56,6 +56,7 @@
     <instance objName="obj_beteljuce" x="1194" y="-55" name="inst_E5169316" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_square_wall" x="2522" y="-457" name="inst_4496FD19" locked="0" code="" scaleX="10" scaleY="1000" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_square_wall" x="-364" y="-196" name="inst_EDD4AD9B" locked="0" code="" scaleX="10" scaleY="1000" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hatetractor_runner" x="1098" y="2002" name="inst_927D2A60" locked="0" code="__xf = 3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

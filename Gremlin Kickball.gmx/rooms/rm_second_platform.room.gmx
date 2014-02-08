@@ -590,6 +590,7 @@
     <instance objName="obj_debug_sensor_previous_room" x="-688" y="384" name="inst_D67105BE" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="10"/>
     <instance objName="obj_debug_spawner" x="2136" y="-368" name="inst_C749A996" locked="0" code="scr_init_spawner_general(x,y,obj_pill,1,0,1500,1500);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_spawner" x="2024" y="-808" name="inst_C9898668" locked="0" code="scr_init_spawner_general(x,y,obj_pill,1,0,1000,100000);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hatetractor_runner" x="744" y="960" name="inst_3588F274" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

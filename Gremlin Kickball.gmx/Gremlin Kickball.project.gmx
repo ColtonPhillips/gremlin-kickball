@@ -90,10 +90,10 @@
       <sprite>sprites\spr_crossbow</sprite>
       <sprite>sprites\spr_gun_big</sprite>
       <sprite>sprites\spr_rifle</sprite>
+      <sprite>sprites\spr_wand</sprite>
       <sprite>sprites\spr_uzi</sprite>
       <sprite>sprites\spr_small_gun</sprite>
       <sprite>sprites\spr_sniper</sprite>
-      <sprite>sprites\spr_wand</sprite>
       <sprite>sprites\spr_sword</sprite>
     </sprites>
     <sprites name="collectables">
@@ -103,7 +103,6 @@
     </sprites>
     <sprites name="portal">
       <sprite>sprites\spr_portal</sprite>
-      <sprite>sprites\spr_hatetractor</sprite>
     </sprites>
     <sprites name="titles">
       <sprite>sprites\spr_title_frosttree_games</sprite>
@@ -245,6 +244,10 @@
       <sprite>sprites\spr_angry_bud</sprite>
       <sprite>sprites\spr_wormipedo</sprite>
       <sprite>sprites\spr_night_walker</sprite>
+      <sprites name="hatetractor">
+        <sprite>sprites\spr_hatetractor_idle</sprite>
+        <sprite>sprites\spr_hatetractor_run</sprite>
+      </sprites>
     </sprites>
     <sprites name="art">
       <sprite>sprites\spr_art_angle</sprite>
@@ -631,6 +634,7 @@
         <script>scripts\scr_jumper_gamepad_p2_gremlin.gml</script>
         <script>scripts\scr_jumper_gamepad_p3_gremlin.gml</script>
         <script>scripts\scr_jumper_gamepad_p4_gremlin.gml</script>
+        <script>scripts\scr_j_for_jump.gml</script>
       </scripts>
       <scripts name="rotator">
         <script>scripts\scr_rotator_gamepad_gremlin.gml</script>
@@ -658,6 +662,10 @@
         <script>scripts\scr_mover_arrow_keys_gremlin.gml</script>
         <script>scripts\scr_mover_asdw_gremlin.gml</script>
         <script>scripts\scr_mover_jkli_gremlin.gml</script>
+        <scripts name="walker_npc">
+          <script>scripts\scr_walker_npc.gml</script>
+          <script>scripts\scr_init_walker_npc.gml</script>
+        </scripts>
       </scripts>
       <scripts name="limit">
         <script>scripts\scr_limit_velocity_gremlin.gml</script>
@@ -666,13 +674,14 @@
         <script>scripts\scr_spawn_general.gml</script>
         <script>scripts\scr_init_spawner_general.gml</script>
       </scripts>
-      <scripts name="walker_npc">
-        <script>scripts\scr_walker_npc.gml</script>
-        <script>scripts\scr_init_walker_npc.gml</script>
+      <scripts name="thinker">
+        <script>scripts\scr_init_thinker_gremlin.gml</script>
+        <script>scripts\scr_init_thinker_seal.gml</script>
+        <script>scripts\scr_think.gml</script>
       </scripts>
-      <scripts name="talker">
-        <script>scripts\scr_init_talker.gml</script>
-        <script>scripts\scr_talk.gml</script>
+      <scripts name="shaker">
+        <script>scripts\scr_init_shaker.gml</script>
+        <script>scripts\scr_shake.gml</script>
       </scripts>
     </scripts>
     <scripts name="debug">
@@ -684,9 +693,15 @@
     <scripts name="chance">
       <script>scripts\scr_chance.gml</script>
     </scripts>
+    <scripts name="sprite">
+      <script>scripts\scr_sprite_flip_left_if_not.gml</script>
+      <script>scripts\scr_sprite_flip_right_if_not.gml</script>
+      <script>scripts\scr_sprite_change_if_not.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_aharoni</font>
+    <font>fonts\fnt_batangche</font>
   </fonts>
   <objects name="objects">
     <objects name="ads">
@@ -695,18 +710,6 @@
     </objects>
     <objects name="overseer_intro">
       <object>objects\obj_overseer_intro</object>
-    </objects>
-    <objects name="food_room_ball_pit">
-      <object>objects\obj_banana</object>
-      <object>objects\obj_carrot</object>
-      <object>objects\obj_pizza</object>
-      <object>objects\obj_cucumber</object>
-      <object>objects\obj_pill</object>
-      <object>objects\obj_pig_cube</object>
-      <object>objects\obj_cherry</object>
-      <object>objects\obj_apple</object>
-      <object>objects\obj_reactive_apple</object>
-      <object>objects\obj_umbrella</object>
     </objects>
     <objects name="debug">
       <objects name="sensor">
@@ -737,7 +740,19 @@
         <object>objects\obj_debug_view_expander</object>
       </objects>
       <objects name="talker">
-        <object>objects\obj_debug_talker</object>
+        <object>objects\obj_debug_thinker</object>
+      </objects>
+      <objects name="food_room_ball_pit">
+        <object>objects\obj_banana</object>
+        <object>objects\obj_carrot</object>
+        <object>objects\obj_pizza</object>
+        <object>objects\obj_cucumber</object>
+        <object>objects\obj_pill</object>
+        <object>objects\obj_pig_cube</object>
+        <object>objects\obj_cherry</object>
+        <object>objects\obj_apple</object>
+        <object>objects\obj_reactive_apple</object>
+        <object>objects\obj_umbrella</object>
       </objects>
     </objects>
     <objects name="player">
@@ -749,6 +764,7 @@
     </objects>
     <objects name="npc">
       <object>objects\obj_nigel</object>
+      <object>objects\obj_hatetractor_runner</object>
     </objects>
     <objects name="balls">
       <object>objects\obj_dpad</object>
@@ -756,7 +772,9 @@
     <objects name="text">
       <object>objects\obj_text</object>
     </objects>
-    <object>objects\object35</object>
+    <objects name="decoration">
+      <object>objects\obj_decoration_seal</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="watchers_eyes">
@@ -780,6 +798,8 @@
       <room>rooms\rm_fall_b</room>
       <room>rooms\rm_fall_c</room>
       <room>rooms\rm_landing</room>
+    </rooms>
+    <rooms name="alone">
       <room>rooms\rm_high_platform</room>
       <room>rooms\rm_crack</room>
       <room>rooms\rm_overseer_lounge</room>

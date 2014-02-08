@@ -37,7 +37,7 @@
     <background visible="-1" foreground="-1" name="bg_chad_name" x="50" y="-100" htiled="-1" vtiled="-1" hspeed="1" vspeed="2" stretch="0"/>
     <background visible="-1" foreground="-1" name="bg_chad_name" x="50" y="-100" htiled="-1" vtiled="-1" hspeed="-2" vspeed="1" stretch="0"/>
     <background visible="-1" foreground="-1" name="bg_chad_name" x="50" y="-100" htiled="-1" vtiled="-1" hspeed="1" vspeed="0" stretch="0"/>
-    <background visible="-1" foreground="-1" name="bg__debug_frame" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="-1" name="bg_trippy_picture" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
   </backgrounds>
   <views>
     <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="900" hview="540" xport="0" yport="0" wport="900" hport="540" hborder="32" vborder="0" hspeed="7" vspeed="0"/>

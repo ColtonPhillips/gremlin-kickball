@@ -160,6 +160,7 @@
     <instance objName="obj_rygel_clone" x="-2" y="22" name="inst_6500CE56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rygel_clone" x="134" y="608" name="inst_C1EC940E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rygel_clone" x="580" y="732" name="inst_2FED842B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hatetractor_runner" x="378" y="930" name="inst_CF1BA892" locked="0" code="__xf = 300;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

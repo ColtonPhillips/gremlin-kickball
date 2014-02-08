@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>self</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>scr_init_grep_system();
 scr_init_grip_system();
-scr_init_talker();
-__freq = 42;
+scr_init_thinker_gremlin();
+__freq = 60;
 __ch = 99;
 __i[0] = "b";
 __i[1] = "bb";
@@ -255,7 +255,7 @@ scr_step_grip_and_grep();
 // sucked down
 physics_apply_force(phy_com_x, phy_com_y,0, 150);
 
-scr_talk();
+scr_think();
 </string>
           </argument>
         </arguments>

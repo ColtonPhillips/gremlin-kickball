@@ -188,6 +188,7 @@
     <instance objName="obj_pizza" x="96" y="1024" name="inst_D1DBC7BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pizza" x="64" y="1024" name="inst_7BF5A9AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_force" x="0" y="672" name="inst_EC48403C" locked="0" code="__xf = 800;&#xA;" scaleX="12.5" scaleY="15" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hatetractor_runner" x="448" y="512" name="inst_9A0A1F5D" locked="0" code="__xf = -5000;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

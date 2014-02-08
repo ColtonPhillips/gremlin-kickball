@@ -1,6 +1,8 @@
 // This moves debug gremlin
 // do not place debug gremlin into any rooms.
 
+scr_j_for_jump();
+
 direction = point_direction(0, 0, gamepad_axis_value(0, gp_axislh), gamepad_axis_value(0, gp_axislv));
 var magicchince=5;
 var hchince = lengthdir_x(gamepad_axis_value(0, gp_axislh), direction) * magicchince;

@@ -52,6 +52,7 @@
   <instances>
     <instance objName="obj_overseer_intro" x="320" y="-32" name="inst_ECF36771" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_room_restarter" x="-64" y="0" name="inst_984BD1FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_decoration_seal" x="64" y="352" name="inst_88670F81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
