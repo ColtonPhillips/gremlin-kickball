@@ -573,6 +573,7 @@
     <sprite>sprites\spr_business_suit</sprite>
     <sprite>sprites\spr_paint_bucket</sprite>
     <sprite>sprites\spr_seal</sprite>
+    <sprite>sprites\spr_bey_roller</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="__pile__">
@@ -624,6 +625,9 @@
       <background>background\bg_tricky_fall</background>
     </backgrounds>
     <background>background\bg_trippy_picture</background>
+    <background>background\bg_bey_roll</background>
+    <background>background\bg_apple</background>
+    <background>background\bg_falling_wires</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -771,6 +775,7 @@
     </objects>
     <objects name="balls">
       <object>objects\obj_dpad</object>
+      <object>objects\obj_bey_roller</object>
     </objects>
     <objects name="text">
       <object>objects\obj_text</object>
@@ -804,7 +809,9 @@
     </rooms>
     <rooms name="alone">
       <room>rooms\rm_high_platform</room>
+      <room>rooms\rm_bey_roll</room>
       <room>rooms\rm_crack</room>
+      <room>rooms\rm_hanging_wires</room>
       <room>rooms\rm_overseer_lounge</room>
       <room>rooms\rm_food_room_ball_pit</room>
     </rooms>

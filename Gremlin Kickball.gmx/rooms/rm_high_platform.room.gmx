@@ -286,6 +286,7 @@
     <instance objName="obj_beteljuce_clone" x="5088" y="-6112" name="inst_AE2C8474" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_beteljuce_clone" x="5088" y="-6144" name="inst_74AB2DCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_view_expander" x="-64" y="-64" name="inst_6B38CE8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_sensor_next_room" x="-832" y="-1088" name="inst_670D0FEC" locked="0" code="" scaleX="10" scaleY="100" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
