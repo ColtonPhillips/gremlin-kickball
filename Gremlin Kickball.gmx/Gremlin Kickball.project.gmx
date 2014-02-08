@@ -708,6 +708,18 @@
       <object>objects\obj_ad_reification</object>
       <object>objects\obj_debug_hold_r_restart_game</object>
     </objects>
+    <objects name="food_room_ball_pit">
+      <object>objects\obj_banana</object>
+      <object>objects\obj_carrot</object>
+      <object>objects\obj_pizza</object>
+      <object>objects\obj_cucumber</object>
+      <object>objects\obj_pill</object>
+      <object>objects\obj_pig_cube</object>
+      <object>objects\obj_cherry</object>
+      <object>objects\obj_apple</object>
+      <object>objects\obj_reactive_apple</object>
+      <object>objects\obj_umbrella</object>
+    </objects>
     <objects name="overseer_intro">
       <object>objects\obj_overseer_intro</object>
     </objects>
@@ -742,17 +754,8 @@
       <objects name="talker">
         <object>objects\obj_debug_thinker</object>
       </objects>
-      <objects name="food_room_ball_pit">
-        <object>objects\obj_banana</object>
-        <object>objects\obj_carrot</object>
-        <object>objects\obj_pizza</object>
-        <object>objects\obj_cucumber</object>
-        <object>objects\obj_pill</object>
-        <object>objects\obj_pig_cube</object>
-        <object>objects\obj_cherry</object>
-        <object>objects\obj_apple</object>
-        <object>objects\obj_reactive_apple</object>
-        <object>objects\obj_umbrella</object>
+      <objects name="katamari">
+        <object>objects\obj_debug_pizza_clunger</object>
       </objects>
     </objects>
     <objects name="player">
