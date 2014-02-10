@@ -574,6 +574,8 @@
     <sprite>sprites\spr_paint_bucket</sprite>
     <sprite>sprites\spr_seal</sprite>
     <sprite>sprites\spr_bey_roller</sprite>
+    <sprite>sprites\spr_mmb_idle</sprite>
+    <sprite>sprites\spr_mmb_run</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="__pile__">
@@ -729,7 +731,7 @@
     </objects>
     <objects name="debug">
       <objects name="sensor">
-        <object>objects\obj_debug_sensor_restarter</object>
+        <object>objects\obj_debug_sensor_restart_room</object>
         <object>objects\obj_debug_sensor_force</object>
         <object>objects\obj_debug_sensor_goto_room</object>
         <object>objects\obj_debug_sensor_previous_room</object>
@@ -772,6 +774,7 @@
     <objects name="npc">
       <object>objects\obj_nigel</object>
       <object>objects\obj_hatetractor_runner</object>
+      <object>objects\obj_mmb_runner</object>
     </objects>
     <objects name="balls">
       <object>objects\obj_dpad</object>

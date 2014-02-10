@@ -104,6 +104,7 @@
     <instance objName="obj_debug_sensor_goto_room" x="1400" y="-160" name="inst_B0427D4D" locked="0" code="__rm = rm_fall_a;&#xA;" scaleX="15.375" scaleY="27.1875" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_spawner" x="416" y="-3392" name="inst_F1990B29" locked="0" code="scr_init_spawner_general(x,y,obj_pig_cube, 100000,100,0,100000);&#xA;" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_hatetractor_runner" x="856" y="828" name="inst_4D3994AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mmb_runner" x="684" y="556" name="inst_44450CEE" locked="0" code="__xf = 500;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

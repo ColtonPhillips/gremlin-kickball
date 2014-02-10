@@ -69,6 +69,9 @@
     <instance objName="obj_debug_square_wall" x="2608" y="5144" name="inst_226FAA79" locked="0" code="" scaleX="32" scaleY="16" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_square_wall" x="4648" y="5176" name="inst_87D0B490" locked="0" code="" scaleX="32" scaleY="16" colour="4294967295" rotation="0"/>
     <instance objName="obj_beteljuce" x="4176" y="-624" name="inst_A3D8C6F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_sensor_restart_room" x="-31240" y="6200" name="inst_27FBFD32" locked="0" code="" scaleX="1000" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_sensor_restart_room" x="9856" y="-1080" name="inst_294F74F8" locked="0" code="" scaleX="10" scaleY="1000" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_sensor_goto_room" x="-1320" y="-920" name="inst_52FF9D58" locked="0" code="__rm = rm_ads;&#xA;" scaleX="10" scaleY="1000" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

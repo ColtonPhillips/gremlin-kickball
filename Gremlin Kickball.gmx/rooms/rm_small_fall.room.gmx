@@ -86,6 +86,7 @@
     <instance objName="obj_debug_square_wall" x="-521" y="-791" name="inst_F636FBF9" locked="0" code="" scaleX="4.25806474685669" scaleY="18.0645160675049" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_force" x="-457" y="-200" name="inst_79347BBE" locked="0" code="__xf = 200;&#xA;" scaleX="5.9375" scaleY="6.84126996994019" colour="4294967295" rotation="0"/>
     <instance objName="obj_hatetractor_runner" x="770" y="361" name="inst_2B04FE57" locked="0" code="__xf = 100;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mmb_runner" x="430" y="514" name="inst_5612D6F6" locked="0" code="__xf = -400;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
