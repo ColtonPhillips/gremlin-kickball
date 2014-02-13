@@ -27,10 +27,10 @@
             <kind>1</kind>
             <string>with (obj_beteljuce) {
 
-    var inst = instance_place(phy_com_x + irandom_range(-15,15), phy_com_y + irandom_range(-15,15), obj_pizza);
+    var inst = instance_place(obj_beteljuce.phy_com_x + irandom_range(-15,15), obj_beteljuce.phy_com_y + irandom_range(-15,15), obj_pizza);
     if (inst != noone)
     {
-        physics_joint_distance_create(obj_beteljuce, inst , phy_com_x, phy_com_y, inst.phy_com_x, inst.phy_com_y, true);
+        physics_joint_distance_create(obj_beteljuce, inst , obj_beteljuce.phy_com_x, obj_beteljuce.phy_com_y, inst.phy_com_x, inst.phy_com_y, true);
     }
   
 }

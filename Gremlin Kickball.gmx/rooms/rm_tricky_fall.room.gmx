@@ -55,8 +55,8 @@
     <instance objName="obj_debug_square_wall" x="-352" y="256" name="inst_ABAFBE12" locked="0" code="" scaleX="11" scaleY="23" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_square_wall" x="-6" y="913" name="inst_BD847C33" locked="0" code="" scaleX="3.125" scaleY="4.25806474685669" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_next_room" x="-3008" y="1280" name="inst_333F36D9" locked="0" code="" scaleX="191" scaleY="11.174599647522" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hatetractor_runner" x="640" y="768" name="inst_0FF11CDF" locked="0" code="__xf = 10000;&#xA;__yf = 10000;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mmb_runner" x="352" y="544" name="inst_682C4030" locked="0" code="__xf = 1000;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hatetractor_runner" x="416" y="672" name="inst_0FF11CDF" locked="0" code="__xf = 10000;&#xA;__yf = 10000;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mmb_runner" x="672" y="768" name="inst_682C4030" locked="0" code="__xf = 1000;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

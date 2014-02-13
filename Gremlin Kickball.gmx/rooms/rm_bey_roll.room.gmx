@@ -62,7 +62,7 @@
     <instance objName="obj_debug_square_wall" x="836" y="1202" name="inst_73B6EF50" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="-30"/>
     <instance objName="obj_debug_square_wall" x="903" y="1289" name="inst_F0E196FA" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bey_roller" x="1031" y="912" name="inst_FFA9AA4C" locked="0" code="" scaleX="0.899999976158142" scaleY="0.899999976158142" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bey_roller" x="1007" y="4806" name="inst_15645FD6" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bey_roller" x="1007" y="4806" name="inst_15645FD6" locked="0" code="physics_joint_distance_create(obj_debug_circle_wall, self,phy_com_x,phy_com_y,obj_debug_circle_wall.phy_com_x, obj_debug_circle_wall.phy_com_y, true);&#xA;" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_bey_roller" x="499" y="-10575" name="inst_613A0B24" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_next_room" x="-21786" y="2637" name="inst_64FEABB3" locked="0" code="" scaleX="1000" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_goto_room" x="2249" y="-894" name="inst_1CE36A3E" locked="0" code="__rm = rm_hanging_wires;&#xA;" scaleX="10" scaleY="20" colour="4294967295" rotation="0"/>

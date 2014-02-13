@@ -630,6 +630,8 @@
     <background>background\bg_bey_roll</background>
     <background>background\bg_apple</background>
     <background>background\bg_falling_wires</background>
+    <background>background\bg_floating_apple</background>
+    <background>background\bg_blue_circle</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -801,6 +803,7 @@
       <room>rooms\rm_small_fall</room>
       <room>rooms\rm_pizza_poop_zone</room>
       <room>rooms\rm_cake_teaser</room>
+      <room>rooms\rm_big_blue_circle</room>
       <room>rooms\rm_candy_insanity</room>
       <room>rooms\rm_digestion</room>
       <room>rooms\rm_tricky_fall</room>
@@ -812,6 +815,7 @@
     </rooms>
     <rooms name="alone">
       <room>rooms\rm_high_platform</room>
+      <room>rooms\rm_fractal_apple_discovery</room>
       <room>rooms\rm_bey_roll</room>
       <room>rooms\rm_crack</room>
       <room>rooms\rm_hanging_wires</room>
