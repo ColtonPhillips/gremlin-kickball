@@ -41,13 +41,13 @@
   </backgrounds>
   <views>
     <view visible="-1" objName="obj_beteljuce" xview="0" yview="0" wview="900" hview="540" xport="0" yport="0" wport="900" hport="540" hborder="320" vborder="320" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
     <instance objName="obj_beteljuce" x="1664" y="-96" name="inst_D810000F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -96,6 +96,7 @@
     <instance objName="obj_debug_spawner" x="1344" y="768" name="inst_0D4C77C3" locked="0" code="__x = x;&#xA;__y = y;&#xA;__obj = obj_banana;&#xA;__ch = 1;&#xA;__radius = 500;&#xA;__delay = 500;&#xA;__duration = 1000000;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_spawner" x="2048" y="768" name="inst_257D48C9" locked="0" code="__x = x;&#xA;__y = y;&#xA;__obj = obj_banana;&#xA;__ch = 1;&#xA;__radius = 500;&#xA;__delay = 500;&#xA;__duration = 1000000;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_restart_room" x="-736" y="128" name="inst_6CA3B545" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_diamond_ring" x="1605" y="298" name="inst_7108C7C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
@@ -104,6 +105,6 @@
   <PhysicsWorldRight>640</PhysicsWorldRight>
   <PhysicsWorldBottom>480</PhysicsWorldBottom>
   <PhysicsWorldGravityX>0</PhysicsWorldGravityX>
-  <PhysicsWorldGravityY>10</PhysicsWorldGravityY>
+  <PhysicsWorldGravityY>5</PhysicsWorldGravityY>
   <PhysicsWorldPixToMeters>0.100000001490116</PhysicsWorldPixToMeters>
 </room>

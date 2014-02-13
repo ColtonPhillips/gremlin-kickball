@@ -180,7 +180,7 @@
     <instance objName="obj_beteljuce_clone" x="6080" y="-2432" name="inst_C7083612" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_beteljuce_clone" x="11808" y="-2272" name="inst_49F1849A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_square_wall" x="3813" y="10147" name="inst_F7FE2EA4" locked="0" code="" scaleX="16" scaleY="16" colour="4294967295" rotation="6"/>
-    <instance objName="obj_debug_circle_wall" x="2626" y="10803" name="inst_0796433D" locked="0" code="" scaleX="66" scaleY="66" colour="4294967295" rotation="0"/>
+    <instance objName="obj_debug_circle_wall" x="2626" y="10823" name="inst_0796433D" locked="0" code="" scaleX="66" scaleY="66" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_next_room" x="-67744" y="12672" name="inst_3353B241" locked="0" code="" scaleX="2000" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_debug_sensor_force" x="0" y="4032" name="inst_17993FB3" locked="0" code="__xf = 2;&#xA;__yf = -200;&#xA;" scaleX="101" scaleY="19" colour="4294967295" rotation="0"/>
     <instance objName="obj_beteljuce_clone" x="576" y="-3264" name="inst_46139FC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

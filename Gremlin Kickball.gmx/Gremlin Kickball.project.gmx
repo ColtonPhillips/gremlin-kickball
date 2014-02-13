@@ -578,7 +578,7 @@
     <sprite>sprites\spr_mmb_run</sprite>
   </sprites>
   <backgrounds name="background">
-    <backgrounds name="__pile__">
+    <backgrounds name="debug">
       <background>background\bg_template</background>
       <backgrounds name="food_room_ball_pit">
         <background>background\bg_food_room_ball_pit</background>
@@ -590,9 +590,7 @@
         <background>background\bg_debug_frame</background>
         <background>background\bg_chad_name</background>
         <background>background\bg_title_screen</background>
-        <backgrounds name="overseer_intro">
-          <background>background\bg_overseer_intro</background>
-        </backgrounds>
+        <background>background\bg_trippy_picture</background>
       </backgrounds>
       <backgrounds name="brecht_platform">
         <background>background\bg_brecht_platform</background>
@@ -602,6 +600,9 @@
       <backgrounds name="fun_jump">
         <background>background\bg_kickball_painterly</background>
       </backgrounds>
+      <backgrounds name="overseer_intro">
+        <background>background\bg_overseer_intro</background>
+      </backgrounds>
     </backgrounds>
     <backgrounds name="fun_run">
       <background>background\bg_cake_tease</background>
@@ -610,11 +611,7 @@
       <background>background\bg_food_vortex</background>
       <background>background\bg_pizza_poop_zone</background>
       <background>background\bg_red_chad</background>
-    </backgrounds>
-    <backgrounds name="split">
-      <background>background\bg_fall_a</background>
-      <background>background\bg_fall_b</background>
-      <background>background\bg_fall_c</background>
+      <background>background\bg_blue_circle</background>
     </backgrounds>
     <backgrounds name="landing">
       <background>background\bg_landing</background>
@@ -625,13 +622,14 @@
       <background>background\bg_crack2</background>
       <background>background\bg_purple_pit</background>
       <background>background\bg_tricky_fall</background>
+      <background>background\bg_floating_apple</background>
+      <background>background\bg_apple</background>
+      <background>background\bg_falling_wires</background>
+      <background>background\bg_bey_roll</background>
+      <background>background\bg_fall_a</background>
+      <background>background\bg_fall_b</background>
+      <background>background\bg_fall_c</background>
     </backgrounds>
-    <background>background\bg_trippy_picture</background>
-    <background>background\bg_bey_roll</background>
-    <background>background\bg_apple</background>
-    <background>background\bg_falling_wires</background>
-    <background>background\bg_floating_apple</background>
-    <background>background\bg_blue_circle</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -650,6 +648,8 @@
         <script>scripts\scr_rotator_gamepad_p2_gremlin.gml</script>
         <script>scripts\scr_rotator_gamepad_p3_gremlin.gml</script>
         <script>scripts\scr_rotator_gamepad_p4_gremlin.gml</script>
+        <script>scripts\scr_rotator_gamepad_trigger.gml</script>
+        <script>scripts\scr_rotator_gamepad_bumper.gml</script>
       </scripts>
       <scripts name="step">
         <script>scripts\scr_step_grip_and_grep.gml</script>
@@ -781,6 +781,7 @@
     <objects name="balls">
       <object>objects\obj_dpad</object>
       <object>objects\obj_bey_roller</object>
+      <object>objects\obj_diamond_ring</object>
     </objects>
     <objects name="text">
       <object>objects\obj_text</object>
