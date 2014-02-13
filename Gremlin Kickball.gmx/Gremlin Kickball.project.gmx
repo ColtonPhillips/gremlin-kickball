@@ -698,13 +698,204 @@
         <script>scripts\scr_debug_move_ball.gml</script>
       </scripts>
     </scripts>
-    <scripts name="chance">
-      <script>scripts\scr_chance.gml</script>
-    </scripts>
     <scripts name="sprite">
       <script>scripts\scr_sprite_flip_left_if_not.gml</script>
       <script>scripts\scr_sprite_flip_right_if_not.gml</script>
       <script>scripts\scr_sprite_change_if_not.gml</script>
+      <script>scripts\sprite_desaturate.gml</script>
+      <script>scripts\sprite_edit_begin.gml</script>
+      <script>scripts\sprite_edit_end.gml</script>
+      <script>scripts\sprite_invert_color.gml</script>
+      <script>scripts\sprite_replace_color.gml</script>
+      <script>scripts\sprite_replace_color_blend.gml</script>
+    </scripts>
+    <scripts name="math">
+      <scripts name="bitwise">
+        <script>scripts\bitwise_reverse8.gml</script>
+        <script>scripts\bitwise_reverse16.gml</script>
+        <script>scripts\bitwise_reverse32.gml</script>
+        <script>scripts\bitwise_rol.gml</script>
+        <script>scripts\bitwise_ror.gml</script>
+      </scripts>
+      <scripts name="distance">
+        <script>scripts\point_line_distance.gml</script>
+      </scripts>
+      <scripts name="geometry">
+        <script>scripts\angle_difference.gml</script>
+        <script>scripts\is_clockwise.gml</script>
+        <script>scripts\line_get_slope.gml</script>
+        <script>scripts\lines_intersect.gml</script>
+        <script>scripts\normal_detect.gml</script>
+        <script>scripts\point_in_circle.gml</script>
+        <script>scripts\point_in_polygon.gml</script>
+        <script>scripts\point_in_triangle.gml</script>
+        <script>scripts\polygon_area.gml</script>
+        <script>scripts\polygon_centroid.gml</script>
+      </scripts>
+      <scripts name="parametric">
+        <script>scripts\bias.gml</script>
+        <script>scripts\bias_fast.gml</script>
+        <script>scripts\boxstep.gml</script>
+        <script>scripts\__clamp.gml</script>
+        <script>scripts\gain.gml</script>
+        <script>scripts\gain_fast.gml</script>
+        <script>scripts\gammacorrect.gml</script>
+        <script>scripts\pulse.gml</script>
+        <script>scripts\smoothstep.gml</script>
+        <script>scripts\spline.gml</script>
+        <script>scripts\spline4.gml</script>
+        <script>scripts\step.gml</script>
+      </scripts>
+      <scripts name="real">
+        <script>scripts\acos.gml</script>
+        <script>scripts\asin.gml</script>
+        <script>scripts\factorial.gml</script>
+        <script>scripts\factor.gml</script>
+        <script>scripts\factor_quadratic.gml</script>
+        <script>scripts\fibonacci.gml</script>
+        <script>scripts\gcd.gml</script>
+        <script>scripts\is_even.gml</script>
+        <script>scripts\is_factor.gml</script>
+        <script>scripts\is_odd.gml</script>
+        <script>scripts\is_power.gml</script>
+        <script>scripts\lcm.gml</script>
+        <script>scripts\sum_interval.gml</script>
+        <script>scripts\toggle.gml</script>
+        <script>scripts\__lerp.gml</script>
+        <script>scripts\dec_to_hex.gml</script>
+        <script>scripts\hex_to_dec.gml</script>
+      </scripts>
+      <scripts name="chance">
+        <script>scripts\scr_chance.gml</script>
+        <script>scripts\exp_dist.gml</script>
+        <script>scripts\roll_dice.gml</script>
+        <script>scripts\gauss.gml</script>
+      </scripts>
+    </scripts>
+    <scripts name="array">
+      <script>scripts\explode_real.gml</script>
+      <script>scripts\explode_real_global.gml</script>
+      <script>scripts\explode_string.gml</script>
+      <script>scripts\explode_string_global.gml</script>
+      <script>scripts\implode_real.gml</script>
+      <script>scripts\implode_real_global.gml</script>
+      <script>scripts\implode_string.gml</script>
+      <script>scripts\implode_string_global.gml</script>
+    </scripts>
+    <scripts name="instance">
+      <script>scripts\instance_nth_farthest.gml</script>
+      <script>scripts\instance_nth_nearest.gml</script>
+      <script>scripts\instance_find_enemy.gml</script>
+      <script>scripts\instance_find_friend.gml</script>
+      <script>scripts\instance_find_team.gml</script>
+    </scripts>
+    <scripts name="string">
+      <script>scripts\cambridge_encode.gml</script>
+      <script>scripts\date_format.gml</script>
+      <script>scripts\date_get_easter.gml</script>
+      <script>scripts\number_format.gml</script>
+      <script>scripts\speakable_password.gml</script>
+      <script>scripts\string_add_spaces.gml</script>
+      <script>scripts\string_escape.gml</script>
+      <script>scripts\string_extract.gml</script>
+      <script>scripts\string_left.gml</script>
+      <script>scripts\string_lpad.gml</script>
+      <script>scripts\string_ltrim.gml</script>
+      <script>scripts\string_parse.gml</script>
+      <script>scripts\string_parse_number.gml</script>
+      <script>scripts\string_parse_single.gml</script>
+      <script>scripts\string_random.gml</script>
+      <script>scripts\string_reverse.gml</script>
+      <script>scripts\string_right.gml</script>
+      <script>scripts\string_rpad.gml</script>
+      <script>scripts\string_rpos.gml</script>
+      <script>scripts\string_rtrim.gml</script>
+      <script>scripts\string_shuffle.gml</script>
+      <script>scripts\string_soundex.gml</script>
+      <script>scripts\string_split.gml</script>
+      <script>scripts\string_stagger_case.gml</script>
+      <script>scripts\string_trim.gml</script>
+      <script>scripts\string_ucfirst.gml</script>
+      <script>scripts\string_ucwords.gml</script>
+      <script>scripts\string_width_limit.gml</script>
+      <script>scripts\string_width_wrap.gml</script>
+      <script>scripts\string_wordwrap.gml</script>
+    </scripts>
+    <scripts name="ai">
+      <script>scripts\instance_closest_approach.gml</script>
+      <script>scripts\intercept_course.gml</script>
+      <script>scripts\motion_predict.gml</script>
+    </scripts>
+    <scripts name="color">
+      <script>scripts\color_mix.gml</script>
+      <script>scripts\color_multiply.gml</script>
+      <script>scripts\color_scale.gml</script>
+      <script>scripts\color_to_cmyk.gml</script>
+      <script>scripts\color_to_hex.gml</script>
+      <script>scripts\color_to_wavelength.gml</script>
+      <script>scripts\hex_to_color.gml</script>
+      <script>scripts\hex_to_rgb.gml</script>
+      <script>scripts\make_color_random.gml</script>
+      <script>scripts\rgb_to_cmyk.gml</script>
+      <script>scripts\rgb_to_hex.gml</script>
+      <script>scripts\wavelength_to_hue.gml</script>
+    </scripts>
+    <scripts name="draw">
+      <script>scripts\draw_arc.gml</script>
+      <script>scripts\draw_background_tiled_area.gml</script>
+      <script>scripts\draw_background_tiled_area_ext.gml</script>
+      <script>scripts\draw_chord.gml</script>
+      <script>scripts\draw_crosshair.gml</script>
+      <script>scripts\draw_crosshair_ext.gml</script>
+      <script>scripts\draw_crosshair_width.gml</script>
+      <script>scripts\draw_crosshair_width_ext.gml</script>
+      <script>scripts\draw_curve.gml</script>
+      <script>scripts\draw_rectangle_dashed.gml</script>
+      <script>scripts\draw_rectangle_dashed_color.gml</script>
+      <script>scripts\draw_rectangle_inverted.gml</script>
+      <script>scripts\draw_roundrect_ext.gml</script>
+      <script>scripts\draw_sprite_flip_ext.gml</script>
+      <script>scripts\draw_sprite_hud.gml</script>
+      <script>scripts\draw_sprite_percent.gml</script>
+      <script>scripts\draw_sprite_stretched_direction.gml</script>
+      <script>scripts\draw_sprite_tiled_area.gml</script>
+      <script>scripts\draw_sprite_tiled_area_ext.gml</script>
+      <script>scripts\draw_sprite_wave.gml</script>
+      <script>scripts\draw_sprite_wave_ext.gml</script>
+      <script>scripts\draw_surface_center.gml</script>
+      <script>scripts\draw_surface_center_ext.gml</script>
+      <script>scripts\draw_surface_center_rotate.gml</script>
+      <script>scripts\draw_text_hud.gml</script>
+      <script>scripts\draw_text_shadow.gml</script>
+      <script>scripts\draw_me.gml</script>
+      <script>scripts\draw_pie.gml</script>
+      <script>scripts\motion_blur.gml</script>
+      <script>scripts\vram_size.gml</script>
+    </scripts>
+    <scripts name="ds">
+      <script>scripts\ds_grid_mirror.gml</script>
+      <script>scripts\__ds_grid_set_grid_region.gml</script>
+      <script>scripts\__ds_grid_shuffle.gml</script>
+      <script>scripts\ds_grid_swap_columns.gml</script>
+      <script>scripts\ds_grid_swap_rows.gml</script>
+      <script>scripts\ds_grid_translate.gml</script>
+      <script>scripts\ds_list_cv.gml</script>
+      <script>scripts\ds_list_dispersion.gml</script>
+      <script>scripts\ds_list_flip.gml</script>
+      <script>scripts\ds_list_geometric_mean.gml</script>
+      <script>scripts\ds_list_load.gml</script>
+      <script>scripts\ds_list_max.gml</script>
+      <script>scripts\ds_list_mean.gml</script>
+      <script>scripts\ds_list_median.gml</script>
+      <script>scripts\ds_list_min.gml</script>
+      <script>scripts\ds_list_pop_standard_deviation.gml</script>
+      <script>scripts\ds_list_save.gml</script>
+      <script>scripts\ds_list_standard_deviation.gml</script>
+      <script>scripts\ds_list_standard_score.gml</script>
+      <script>scripts\ds_list_sum.gml</script>
+      <script>scripts\ds_list_sum_squares.gml</script>
+      <script>scripts\ds_list_variance.gml</script>
+      <script>scripts\ds_list_vrm.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
