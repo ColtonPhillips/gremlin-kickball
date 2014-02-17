@@ -56,7 +56,7 @@ scr_sucker_down_gremlin();
 scr_rotator_gamepad_p1_gremlin();
 scr_limit_velocity_gremlin();
 scr_step_grip_and_grep();
-scr_j_for_jump();
+scr_j_for_jump_gremlin();
 </string>
           </argument>
         </arguments>
