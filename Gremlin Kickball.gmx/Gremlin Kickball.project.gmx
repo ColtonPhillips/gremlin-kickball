@@ -1018,7 +1018,7 @@
   <constants number="15">
     <constant name="magic_grip_threshold">11</constant>
     <constant name="magic_grep_threshold">50</constant>
-    <constant name="magic_sucker">200</constant>
+    <constant name="magic_sucker_gremlin">200</constant>
     <constant name="starting_grip">0</constant>
     <constant name="magic_torque_gremlin">300</constant>
     <constant name="starting_grep">100</constant>
