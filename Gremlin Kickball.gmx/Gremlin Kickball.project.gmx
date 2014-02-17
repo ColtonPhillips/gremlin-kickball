@@ -1020,7 +1020,7 @@
     <constant name="magic_grep_threshold">50</constant>
     <constant name="magic_sucker">200</constant>
     <constant name="starting_grip">0</constant>
-    <constant name="magic_torque">300</constant>
+    <constant name="magic_torque_gremlin">300</constant>
     <constant name="starting_grep">100</constant>
     <constant name="damping_x_gremlin">2</constant>
     <constant name="damping_y_gremlin">12</constant>
