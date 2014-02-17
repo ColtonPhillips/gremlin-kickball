@@ -4,7 +4,8 @@ if (gamepad_button_check_pressed(_n, gp_face1)) {
     if (grip < magic_grip_threshold && grep > magic_grep_threshold) {
         // mad ups
         grep = grep / 2;
-        physics_apply_impulse(phy_com_x,phy_com_y,0,magic_jump_impulse_gremlin  - grep + grip );
+        physics_apply_impulse(phy_com_x,phy_com_y,
+            0,magic_jump_impulse_gremlin  - grep + grip );
     }
     grip = grip + 10;
 }
