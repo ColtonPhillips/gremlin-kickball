@@ -1,4 +1,5 @@
-var _direction = point_direction(0, 0, gamepad_axis_value(__p1, gp_axislh), gamepad_axis_value(__p1, gp_axislv));
+var _direction = point_direction(0, 0, 
+    gamepad_axis_value(__p1, gp_axislh), gamepad_axis_value(__p1, gp_axislv));
 
 var hchince = lengthdir_x(gamepad_axis_value(__p1, gp_axislh), _direction) * magic_force;
 var vchince = lengthdir_y(gamepad_axis_value(__p1, gp_axislv), _direction) * magic_force;

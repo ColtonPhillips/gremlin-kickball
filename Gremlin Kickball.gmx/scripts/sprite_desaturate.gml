@@ -1,4 +1,4 @@
-/*
+/* NEEDS A FIX'N
 **  Usage:
 **      sprite_desaturate(sprite)
 **
@@ -12,32 +12,33 @@
 **      This script converts a sprite to grayscale.
 **      No new sprites are created, the given sprite is changed.
 **      Blending mode is reset to normal.
+**      Edited by colton. runs valid but is broke.
 **
 **  GMLscripts.com
 */
-/*
+
 {
-    var sprite,w,h,n,p,s,l,xo,yo,surf,i,newsprite,alphasprite;
+    var sprite,w,h,n,xo,yo,surf,i,newsprite,alphasprite;
     sprite = argument0;
     w  = sprite_get_width(sprite);
     h  = sprite_get_height(sprite);
     n  = sprite_get_number(sprite);
-    p  = sprite_get_precise(sprite);
-    s  = sprite_get_smooth(sprite);
-    l  = sprite_get_preload(sprite);
+    //p  = sprite_get_precise(sprite);
+    //s  = sprite_get_smooth(sprite);
+    //l  = sprite_get_preload(sprite);
     xo = sprite_get_xoffset(sprite);
     yo = sprite_get_yoffset(sprite);
     surf = surface_create(w,h);
     if (surf < 0) return -1;
     surface_set_target(surf);
     draw_clear_alpha(c_white,1);
-    tempsprite = sprite_create_from_surface(surf,0,0,w,h,p,0,s,l,xo,yo);
+    tempsprite = sprite_create_from_surface(surf,0,0,w,h,false,false,xo,yo);
     if (tempsprite < 0) {
         surface_free(surf);
         surface_reset_target();
         return -1;
     }
-    for (i=1; i<n; i+=1) sprite_add_from_surface(tempsprite,surf,0,0,w,h);
+    for (i=1; i<n; i+=1) sprite_add_from_surface(tempsprite,surf,0,0,w,h,false,false);
     sprite_set_alpha_from_sprite(tempsprite,sprite);
     for (i=0; i<n; i+=1) {
         draw_clear_alpha(c_black,1);
@@ -45,7 +46,7 @@
         draw_set_blend_mode(bm_add);
         draw_rectangle_color(0,0,w,h,c_black,c_black,c_black,c_black,false);
         if (i == 0) {
-            newsprite = sprite_create_from_surface(surf,0,0,w,h,p,0,s,l,xo,yo);
+            newsprite = sprite_create_from_surface(surf,0,0,w,h,false,false,xo,yo);
             if (newsprite < 0) {
                 sprite_delete(tempsprite);
                 surface_reset_target();
@@ -53,13 +54,13 @@
                 return -1;
             }
         }else{
-            sprite_add_from_surface(newsprite,surf,0,0,w,h);
+            sprite_add_from_surface(newsprite,surf,0,0,w,h, false, false);
         }
         draw_clear_alpha(c_white,1);
         draw_set_blend_mode_ext(bm_zero,bm_src_alpha);
         draw_sprite(sprite,i,xo,yo);
         if (i == 0) {
-            alphasprite = sprite_create_from_surface(surf,0,0,w,h,p,0,s,l,xo,yo);
+            alphasprite = sprite_create_from_surface(surf,0,0,w,h,false,false,xo,yo);
             if (alphasprite < 0) {
                 sprite_delete(tempsprite);
                 sprite_delete(newsprite);
@@ -68,7 +69,7 @@
                 return -1;
             }
         }else{
-            sprite_add_from_surface(alphasprite,surf,0,0,w,h);
+            sprite_add_from_surface(alphasprite,surf,0,0,w,h,false,false);
         }
         draw_set_blend_mode(bm_normal);
     }
@@ -79,4 +80,4 @@
     sprite_delete(newsprite);
     sprite_delete(tempsprite);
     surface_free(surf);
-}*/
+}
