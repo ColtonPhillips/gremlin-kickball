@@ -702,12 +702,7 @@
       <script>scripts\scr_sprite_flip_left_if_not.gml</script>
       <script>scripts\scr_sprite_flip_right_if_not.gml</script>
       <script>scripts\scr_sprite_change_if_not.gml</script>
-      <script>scripts\sprite_desaturate.gml</script>
-      <script>scripts\sprite_edit_begin.gml</script>
-      <script>scripts\sprite_edit_end.gml</script>
-      <script>scripts\sprite_invert_color.gml</script>
       <script>scripts\sprite_replace_color.gml</script>
-      <script>scripts\sprite_replace_color_blend.gml</script>
     </scripts>
     <scripts name="math">
       <scripts name="bitwise">
