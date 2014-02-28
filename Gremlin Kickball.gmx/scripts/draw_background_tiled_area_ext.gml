@@ -18,6 +18,7 @@
 **
 **  GMLscripts.com
 */
+/*
 {
     var bg,xx,yy,x1,y1,x2,y2;
     bg = argument0;
@@ -50,3 +51,4 @@
         j = jj;
     }
 }
+*/
