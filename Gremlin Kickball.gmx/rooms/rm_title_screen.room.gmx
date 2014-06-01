@@ -10,9 +10,11 @@
   <persistent>0</persistent>
   <colour>16384</colour>
   <showcolour>-1</showcolour>
-  <code>audio_play_music(snd_uprising, true);</code>
+  <code>audio_stop_all();
+audio_play_sound(snd_uprising, 1,true);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
+  <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>0</isSet>
     <w>0</w>
