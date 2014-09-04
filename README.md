@@ -1,4 +1,4 @@
 gremlin-kickball
 ================
 
-a game
+An unfinished game that uses physics.
